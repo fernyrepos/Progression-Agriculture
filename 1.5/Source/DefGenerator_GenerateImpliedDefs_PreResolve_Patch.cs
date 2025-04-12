@@ -135,6 +135,10 @@ namespace ProgressionAgriculture
 			{
 				"RewardStandardCore"
 			};
+			seedBundleDef.descriptionHyperlinks = new List<DefHyperlink>
+				{
+					new DefHyperlink(cropDef)
+				};
 			seedBundleDef.useHitPoints = false;
 			seedBundleDef.alwaysHaulable = true;
 			seedBundleDef.category = ThingCategory.Item;

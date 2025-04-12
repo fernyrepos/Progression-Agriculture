@@ -5,19 +5,20 @@ namespace ProgressionAgriculture
 
 	public class ProgressionAgricultureModSettings : ModSettings
 	{
-		public static float RecipeDefIngredientCount = 10f;
+		public static int RecipeDefIngredientCount = 10;
 		public override void ExposeData()
 		{
 			base.ExposeData();
-			Scribe_Values.Look(ref RecipeDefIngredientCount, "RecipeDefIngredientCount", 10f);
+			Scribe_Values.Look(ref RecipeDefIngredientCount, "RecipeDefIngredientCount", 10);
 		}
 
 		public void DoSettingsWindowContents(Rect inRect)
 		{
 			Listing_Standard listingStandard = new Listing_Standard();
 			listingStandard.Begin(inRect);
-			RecipeDefIngredientCount = listingStandard.SliderLabeled("PA.SeedBundleIngredientCount".Translate
+			var sliderValue = listingStandard.SliderLabeled("PA.SeedBundleIngredientCount".Translate
 				(RecipeDefIngredientCount), RecipeDefIngredientCount, 1f, 100f);
+			RecipeDefIngredientCount = Mathf.RoundToInt(sliderValue);
 			listingStandard.End();
 		}
 	}
