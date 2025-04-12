@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ScenarioDef[defName="RBME_MinotaurTribe"]/scenario/parts/li[@Class="ScenPart_StartingResearch"][project="Cocoa"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ScenarioDef[defName="RBME_MinotaurTribe"]/scenario/parts</xpath>
+    <value>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Plant_Potato_SeedBundle</thingDef>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Plant_TreeCocoa_SeedBundle</thingDef>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ScenarioDef[defName="RBME_MinotaurNomads"]/scenario/parts</xpath>
+    <value>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Plant_Potato_SeedBundle</thingDef>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Plant_Healroot_SeedBundle</thingDef>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ScenarioDef[defName="RBME_ThePovertyTourists"]/scenario/parts</xpath>
+    <value>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Plant_Rice_SeedBundle</thingDef>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Plant_Potato_SeedBundle</thingDef>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Plant_Healroot_SeedBundle</thingDef>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Plant_Cotton_SeedBundle</thingDef>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Plant_Psychoid_SeedBundle</thingDef>
+      </li>
+    </value>
+  </Operation>
+  
+</Patch>

@@ -1,0 +1,36 @@
+<loadFolders>
+  <v1.5>
+    <li>/</li>
+    <li>1.5</li>
+    <li IfModActive="vanillaexpanded.vplantsemore">Mods and Shit/VE Plants More</li>
+    <li IfModActive="vanillaexpanded.vcooke">Mods and Shit/VE Cooking</li>
+    <li IfModActive="regrowth.botr.core">Mods and Shit/Regrowth Core</li>
+    <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>
+    <li IfModActive="vanillaexpanded.vfefarming">Mods and Shit/VFE Farming</li>
+    <li IfModActive="biomesteam.biomescore">Mods and Shit/Biomes Core</li>
+    <li IfModActive="Ludeon.Rimworld.Biotech">Mods and Shit/Biotech</li>
+    <li IfModActive="Ludeon.Rimworld.Anomaly">Mods and Shit/Anomaly</li>
+    <li IfModActive="vanillaracesexpanded.insector">Mods and Shit/VRE Insectors</li>
+    <li IfModActive="oskarpotocki.vanillafactionsexpanded.settlersmodule">Mods and Shit/VFE Settlers</li>
+    <li IfModActive="oskarpotocki.vfe.pirates">Mods and Shit/VFE Pirates</li>
+    <li IfModActive="oskarpotocki.vfe.mechanoid">Mods and Shit/VFE Mechanoids</li>
+    <li IfModActive="oskarpotocki.vfe.insectoid2">Mods and Shit/VFE Insectoids 2</li>
+    <li IfModActive="oskarpotocki.vfe.empire">Mods and Shit/VFE Empire</li>
+    <li IfModActive="oskarpotocki.vfe.deserters">Mods and Shit/VFE Deserters</li>
+    <li IfModActive="oskarpotocki.vfe.classical">Mods and Shit/VFE Classical</li>
+    <li IfModActive="vanillaexpanded.vfea">Mods and Shit/VFE Ancients</li>
+    <li IfModActive="kentington.saveourship2">Mods and Shit/SOS2</li>
+    <li IfModActive="pal5k.snowcrawler">Mods and Shit/Snowcrawler</li>
+    <li IfModActive="rooboid.satyrfaun.expanded">Mods and Shit/Roo SF Expanded</li>
+    <li IfModActive="rooboid.minotaur.expanded">Mods and Shit/Roo Minotaur Expanded</li>
+    <li IfModActive="phaserrave.deathpallcalypse">Mods and Shit/Deathpallcalypse</li>
+    <li IfModActive="sarg.alphagenes">Mods and Shit/Alpha Genes</li>
+    <li IfModActive="vanillaexpanded.vplantsemushrooms">Mods and Shit/VE Plants Mushrooms</li>
+    <li IfModActive="Ludeon.Rimworld.Ideology">Mods and Shit/Ideology</li>
+    <li IfModActive="pphhyy.guldennew">Mods and Shit/Gulden Biome</li>
+    <li IfModActive="oskarpotocki.vfe.tribals">Mods and Shit/VFE Tribals</li>
+    <li IfModActive="adamas.plantgenetics">Mods and Shit/Plant Genetics</li>
+    <li IfModActive="VanillaExpanded.VPlantsESucculents">Mods and Shit/VPE Succulents</li>
+    <!-- <li IfModActive="oskarpotocki.vfe.medieval2">Mods and Shit/VFE Medieval 2</li> -->
+  </v1.5>
+</loadFolders>

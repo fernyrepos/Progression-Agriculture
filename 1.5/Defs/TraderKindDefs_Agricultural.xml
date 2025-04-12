@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <TraderKindDef>
+        <defName>AgriculturalTrader</defName>
+        <label>agricultural trader</label>
+        <stockGenerators>
+            <li Class="StockGenerator_Tag">
+                <tradeTag>Seeds</tradeTag>
+                <thingDefCountRange>10~10</thingDefCountRange>
+                <countRange>1~1</countRange>
+            </li>
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>

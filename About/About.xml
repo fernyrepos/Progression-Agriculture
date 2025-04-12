@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Progression: Agriculture</name>
+	<author>ferny</author>
+	<packageId>ferny.progressionagriculture</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>ferny.ReplaceLib</packageId>
+			<displayName>ReplaceLib</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2329011599</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<description>Integrates agriculture mods into Vanilla progression.</description>
+	<loadAfter>
+		<li>Ludeon.Rimworld</li>
+		<li>Ludeon.Rimworld.Royalty</li>
+		<li>Ludeon.Rimworld.Ideology</li>
+		<li>Ludeon.Rimworld.Biotech</li>
+		<li>Ludeon.Rimworld.Anomaly</li>
+		<li>dankpyon.medieval.overhaul</li>
+		<li>vanillaexpanded.plantse</li>
+		<li>vanillaexpanded.plantsemore</li>
+		<li>vanillaexpanded.vfefarming</li>
+		<li>biomesteam.biomescore</li>
+		<li>vanillaracesexpanded.insector</li>
+		<li>oskarpotocki.vanillafactionsexpanded.settlersmodule</li>
+		<li>oskarpotocki.vfe.pirates</li>
+		<li>oskarpotocki.vfe.mechanoid</li>
+		<li>oskarpotocki.vfe.insectoid2</li>
+		<li>oskarpotocki.vfe.empire</li>
+		<li>oskarpotocki.vfe.deserters</li>
+		<li>oskarpotocki.vfe.classical</li>
+		<li>vanillaexpanded.vfea</li>
+		<li>kentington.saveourship2</li>
+		<li>pal5k.snowcrawler</li>
+		<li>rooboid.satyrfaun.expanded</li>
+		<li>rooboid.minotaur.expanded</li>
+		<li>phaserrave.deathpallcalypse</li>
+		<li>sarg.alphagenes</li>
+		<li>vanillaexpanded.vplantsemushrooms</li>
+		<li>pphhyy.guldennew</li>
+		<li>oskarpotocki.vfe.tribals</li>
+		<li>oskarpotocki.vfe.medieval2</li>
+		<li>adamas.plantgenetics</li>
+		<li>VanillaExpanded.VPlantsESucculents</li>
+	</loadAfter>
+</ModMetaData>

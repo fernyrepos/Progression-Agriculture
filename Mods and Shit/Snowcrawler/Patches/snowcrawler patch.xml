@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- EXTENDED EXPEDITION -->
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef[defName="SCExtendedExpedition"]/scenario/parts</xpath>
+        <value>
+        <li Class="ScenPart_StartingThing_Defined">
+            <def>StartingThing_Defined</def>
+            <thingDef>Plant_Potato_SeedBundle</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+            <def>StartingThing_Defined</def>
+            <thingDef>Plant_Healroot_SeedBundle</thingDef>
+        </li>
+        </value>
+    </Operation>
+
+
+</Patch>
