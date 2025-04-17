@@ -31,6 +31,7 @@
     <li IfModActive="oskarpotocki.vfe.tribals">Mods and Shit/VFE Tribals</li>
     <li IfModActive="adamas.plantgenetics">Mods and Shit/Plant Genetics</li>
     <li IfModActive="VanillaExpanded.VPlantsESucculents">Mods and Shit/VPE Succulents</li>
+    <li IfModActive="spdskatr.projectrimfactory">Mods and Shit/Project RimFactory Revived</li>
     <!-- <li IfModActive="oskarpotocki.vfe.medieval2">Mods and Shit/VFE Medieval 2</li> -->
   </v1.5>
 </loadFolders>
