@@ -27,6 +27,13 @@
                 </li>
                 </operations>
 		</match>
+        <nomatch Class="PatchOperationSequence">
+        <operations>
+        <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="PlantPot_Bonsai"]/researchPrerequisites</xpath>
+        </li>
+        </operations>
+        </nomatch>
 	</Operation>
 
 
