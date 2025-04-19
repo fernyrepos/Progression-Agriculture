@@ -10,6 +10,21 @@
                 <thingDefCountRange>10~10</thingDefCountRange>
                 <countRange>1~1</countRange>
             </li>
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>PsychoidLeaves</thingDef>
+			</li>
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>SmokeleafLeaves</thingDef>
+			</li>
+			<li Class="ProgressionAgriculture.StockGenerator_BuyCategory">
+				<categoryDef>PlantFoodRaw</categoryDef>
+			</li>
+			<li Class="ProgressionAgriculture.StockGenerator_BuyCategory" MayRequire="VanillaExpanded.VPlantsE">
+				<categoryDef>VCE_Fruit</categoryDef>
+			</li>
+			<li Class="StockGenerator_BuySingleDef" MayRequire="VanillaExpanded.VPlantsEMushrooms">
+				<thingDef>VPE_Bileceps</thingDef>
+			</li>
         </stockGenerators>
     </TraderKindDef>
 
