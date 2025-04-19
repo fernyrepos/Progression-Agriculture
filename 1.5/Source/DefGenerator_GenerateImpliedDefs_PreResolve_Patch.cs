@@ -129,6 +129,7 @@ namespace ProgressionAgriculture
 			};
 			seedBundleDef.thingCategories = new List<ThingCategoryDef> { PA_DefOf.SeedBundles };
 			seedBundleDef.stackLimit = 1;
+			seedBundleDef.tradeability = Tradeability.Buyable;
 			seedBundleDef.tradeTags = new List<string> { "Seeds" };
 			seedBundleDef.selectable = true;
 			seedBundleDef.thingSetMakerTags = new List<string>
