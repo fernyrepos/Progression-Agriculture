@@ -129,7 +129,7 @@ namespace ProgressionAgriculture
 			};
 			seedBundleDef.thingCategories = new List<ThingCategoryDef> { PA_DefOf.SeedBundles };
 			seedBundleDef.stackLimit = 1;
-			seedBundleDef.tradeability = Tradeability.Buyable;
+			seedBundleDef.tradeability = Tradeability.All;
 			seedBundleDef.tradeTags = new List<string> { "Seeds" };
 			seedBundleDef.selectable = true;
 			seedBundleDef.thingSetMakerTags = new List<string>
@@ -153,6 +153,7 @@ namespace ProgressionAgriculture
 				new StatModifier { stat = StatDefOf.MaxHitPoints, value = 100 },
 				new StatModifier { stat = StatDefOf.MarketValue, value = 300 },
 				new StatModifier { stat = StatDefOf.Mass, value = 0.02f },
+				new StatModifier { stat = StatDefOf.SellPriceFactor, value = 0.04f }
 			];
 			seedBundleDef.techLevel = TechLevel.Neolithic;
 			seedBundleDef.scatterableOnMapGen = false;
