@@ -2,6 +2,7 @@ using Verse;
 using System.Collections.Generic;
 using RimWorld;
 using LudeonTK;
+using System.Linq;
 
 namespace ProgressionAgriculture
 {
@@ -18,6 +19,17 @@ namespace ProgressionAgriculture
 		{
 			Instance = this;
 		}
+
+        public override void FinalizeInit()
+        {
+            if (ModsConfig.IsActive("kentington.saveourship2")) {
+				foreach (ThingDef cropDef in DefDatabase<ThingDef>.AllDefs.Where(x => x.plant != null && x.plant.Sowable).ToList()) {
+					if (cropDef.plant?.sowResearchPrerequisites?.Any(researchDef => researchDef.defName == "ArchotechPlants") == true) {
+						unlockedCrops.Add(cropDef);
+					}
+				}
+			}
+        }
 
 		public override void ExposeData()
 		{

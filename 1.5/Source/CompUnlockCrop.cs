@@ -20,7 +20,7 @@ namespace ProgressionAgriculture
 			}
 			else
 			{
-				yield return new FloatMenuOption("PA.CropAlreadyUnlocked".Translate(Props.cropDef.label), null);
+				yield return new FloatMenuOption("PA.CropAlreadyUnlocked".Translate(Props.cropDef.label).CapitalizeFirst(), null);
 			}
 		}
 
@@ -29,5 +29,13 @@ namespace ProgressionAgriculture
 			GameComponent_UnlockedCrops.Instance.UnlockCrop(Props.cropDef);
 			parent.Destroy();
 		}
+
+        public override string TransformLabel(string label)
+        {
+			if (GameComponent_UnlockedCrops.Instance.IsCropUnlocked(Props.cropDef)) {
+				return "PA.UnlockedSeedLabel".Translate(label);
+			}
+            return base.TransformLabel(label);
+        }
 	}
 }

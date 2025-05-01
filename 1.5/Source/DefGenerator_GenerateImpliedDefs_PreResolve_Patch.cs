@@ -3,6 +3,7 @@ using RimWorld;
 using Verse;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 
 namespace ProgressionAgriculture
 {
@@ -29,10 +30,12 @@ namespace ProgressionAgriculture
 
 			foreach (ThingDef cropDef in DefDatabase<ThingDef>.AllDefs.Where(x => x.plant != null && x.plant.Sowable).ToList())
 			{
-				if (sowableCrops.Contains(cropDef))
-				{
+				if (sowableCrops.Contains(cropDef) ||
+						(ModsConfig.IsActive("kentington.saveourship2")
+                        	&& cropDef.plant?.sowResearchPrerequisites?.Any(researchDef => researchDef.defName == "ArchotechPlants") == true)){
 					continue;
 				}
+
 				sowableCrops.Add(cropDef);
 				ThingDef seedBundleDef = GenerateSeedBundleDefForCrop(cropDef, hotReload);
 				if (seedBundleDef != null)

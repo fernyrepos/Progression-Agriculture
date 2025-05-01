@@ -11,5 +11,7 @@ namespace ProgressionAgriculture
         public static ThingDef SeedPackingBench;
         public static ThingDef SeedPackingCraftingSpot;
         public static ThingCategoryDef SeedBundles;
+
+        public static ScenPartDef Ferny_StartingSeeds;
     }
 }

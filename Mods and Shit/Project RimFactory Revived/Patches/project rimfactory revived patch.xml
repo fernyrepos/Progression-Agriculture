@@ -9,28 +9,28 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ScenarioDef[defName="PRF_FactoryEntrepreneur"]/scenario/parts</xpath>
     <value>
-      <li Class="ScenPart_StartingThing_Defined">
-        <def>StartingThing_Defined</def>
+      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+        <def>Ferny_StartingSeeds</def>
         <thingDef>Plant_Rice_SeedBundle</thingDef>
       </li>
-      <li Class="ScenPart_StartingThing_Defined">
-        <def>StartingThing_Defined</def>
+      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+        <def>Ferny_StartingSeeds</def>
         <thingDef>Plant_Potato_SeedBundle</thingDef>
       </li>
-      <li Class="ScenPart_StartingThing_Defined">
-        <def>StartingThing_Defined</def>
+      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+        <def>Ferny_StartingSeeds</def>
         <thingDef>Plant_Healroot_SeedBundle</thingDef>
       </li>
-      <li Class="ScenPart_StartingThing_Defined">
-        <def>StartingThing_Defined</def>
+      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+        <def>Ferny_StartingSeeds</def>
         <thingDef>Plant_Cotton_SeedBundle</thingDef>
       </li>
-      <li Class="ScenPart_StartingThing_Defined">
-        <def>StartingThing_Defined</def>
+      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+        <def>Ferny_StartingSeeds</def>
         <thingDef>Plant_Psychoid_SeedBundle</thingDef>
       </li>
-      <li Class="ScenPart_StartingThing_Defined">
-        <def>StartingThing_Defined</def>
+      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+        <def>Ferny_StartingSeeds</def>
         <thingDef>Plant_Devilstrand_SeedBundle</thingDef>
       </li>
     </value>
