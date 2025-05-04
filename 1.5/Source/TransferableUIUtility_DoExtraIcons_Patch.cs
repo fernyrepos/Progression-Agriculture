@@ -11,7 +11,7 @@ namespace ProgressionAgriculture
 		private static float IconWidth = 24f;
 		public static void Postfix(Transferable trad, Rect rect, ref float curX)
 		{
-			var props = trad.ThingDef.GetCompProperties<CompProperties_UnlockCrop>();
+			var props = trad?.ThingDef?.GetCompProperties<CompProperties_UnlockCrop>();
 			if (props != null)
 			{
 				bool unlocked = GameComponent_UnlockedCrops.Instance.IsCropUnlocked(props.cropDef);

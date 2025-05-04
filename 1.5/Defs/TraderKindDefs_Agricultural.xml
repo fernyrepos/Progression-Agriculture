@@ -5,6 +5,10 @@
         <defName>AgriculturalTrader</defName>
         <label>agricultural trader</label>
         <stockGenerators>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>75~500</countRange>
+			</li>
             <li Class="StockGenerator_Tag">
                 <tradeTag>Seeds</tradeTag>
                 <thingDefCountRange>10~10</thingDefCountRange>
