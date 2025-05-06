@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+    <!-- Replace VE researches before removing their defs -->
+      <Operation Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+                <ReplaceLib.ReplacerDef>
+                    <defName>Ferny_PA_VFET_Compat</defName>
+                        <replacers>
+                            <li>
+                                <replace>VFET_Cultivation</replace>
+                                <with>VFET_Agriculture</with>
+                            </li>
+                            <li>
+                                <replace>VFET_Medicine</replace>
+                                <with>VFET_Agriculture</with>
+                            </li>
+                       </replacers>
+                </ReplaceLib.ReplacerDef>
+            </value>
+	   </Operation>
+
       <Operation Class="PatchOperationRemove">
           <success>Always</success>
           <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Cultivation"]</xpath>
@@ -8,11 +28,20 @@
           <success>Always</success>
           <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Medicine"]</xpath>
       </Operation>
+
+      <!-- Center Agriculture so it doesn't look ugly as a prereq to Culture -->
+      <Operation Class="PatchOperationReplace">
+          <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Agriculture"]/researchViewX</xpath>
+          <value>
+              <researchViewX>2.00</researchViewX>
+          </value>
+      </Operation>
       <Operation Class="PatchOperationReplace">
           <success>Always</success>
           <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Culture"]/prerequisites</xpath>
           <value>
             <prerequisites>
+                <li>VFET_Agriculture</li>
                 <li>VFET_Tribalwear</li>
                 <li>VFET_Furniture</li>
                 <li>VFET_AnimalHandling</li>

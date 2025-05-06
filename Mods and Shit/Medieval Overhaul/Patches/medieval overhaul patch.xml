@@ -98,6 +98,30 @@
 
 
                         <!-- FUCK THESE RESEARCH PROJECTS -->
+
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+            <ReplaceLib.ReplacerDef>
+                <defName>Ferny_PA_MO_Compat</defName>
+                    <replacers>
+                        <li>
+                            <replace>DankPyon_IntermediateAgriculture</replace>
+                            <with>DankPyon_BasicAgriculture</with>
+                        </li>
+                        <li>
+                            <replace>DankPyon_AdvancedAgriculture</replace>
+                            <with>DankPyon_BasicAgriculture</with>
+                        </li>
+                        <li>
+                            <replace>DankPyon_TreeGriffonBerry</replace>
+                            <with>DankPyon_BasicAgriculture</with>
+                        </li>
+                   </replacers>
+            </ReplaceLib.ReplacerDef>
+        </value>
+	  </Operation>
+      
       <Operation Class="PatchOperationRemove">
           <success>Always</success>
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_IntermediateAgriculture"]</xpath>

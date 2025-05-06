@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+
+      <Operation Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+            <ReplaceLib.ReplacerDef>
+                <defName>Ferny_PA_VFE_Succ_Compat</defName>
+                    <replacers>
+                        <li>
+                            <replace>VCE_SucculentSowing</replace>
+                            <with></with>
+                        </li>
+                    </replacers>
+            </ReplaceLib.ReplacerDef>
+        </value>
+	  </Operation>
+
       <Operation Class="PatchOperationRemove">
           <success>Always</success>
           <xpath>Defs/ResearchProjectDef[defName="VCE_SucculentSowing"]</xpath>
