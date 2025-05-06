@@ -333,9 +333,7 @@
 
 
 
-
-
-                        <!-- VFE MEDIEVAL 2 OVERLAP -->
+<!-- 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Factions Expanded - Medieval 2</li>
@@ -382,6 +380,6 @@
 
                 </operations>
 		</match>
-	</Operation>
+	</Operation> -->
 
 </Patch>
