@@ -34,5 +34,6 @@
     <li IfModActive="spdskatr.projectrimfactory">Mods and Shit/Project RimFactory Revived</li>
     <li IfModActive="xmb.ancienthydroponicfarmfacilities.mo">Mods and Shit/Ancient Hydroponic Farm Facilities</li>
     <!-- <li IfModActive="oskarpotocki.vfe.medieval2">Mods and Shit/VFE Medieval 2</li> -->
+    <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
   </v1.5>
 </loadFolders>

@@ -332,7 +332,43 @@
 	</Operation>
 
 
-
+                        <!-- VFE FARMING OVERLAP -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Brewing Expanded - Coffees and Teas</li>
+		</mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+                    <li Class="PatchOperationFindMod">
+                        <mods>
+                            <li>Vanilla Plants Expanded</li>
+                        </mods>
+                            <match Class="PatchOperationSequence">
+                                <operations>
+                                    <li Class="PatchOperationAdd">
+                                        <xpath>/Defs</xpath>
+                                        <value>
+                                        <ReplaceLib.ReplacerDef>
+                                            <defName>MedievalOverhaul_VEBrewing_Agriculture</defName>
+                                            <replacers>
+                                                <li>
+                                                    <replace>VBE_LemonTree</replace>
+                                                    <with>DankPyon_Tree_Lemon</with>
+                                                </li>
+                                                <li>
+                                                    <replace>VCE_RawLemon</replace>
+                                                    <with>DankPyon_RawLemons</with>
+                                                </li>
+                                            </replacers>
+                                        </ReplaceLib.ReplacerDef>
+                                        </value>
+                                    </li>
+                                </operations>
+                            </match>
+                    </li>
+                </operations>
+		</match>
+	</Operation>
 <!-- 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
