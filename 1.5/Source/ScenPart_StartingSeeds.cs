@@ -8,7 +8,7 @@ namespace ProgressionAgriculture
 {
     public class ScenPart_StartingSeeds : ScenPart
     {
-        protected ThingDef thingDef;
+        public ThingDef thingDef;
         public const string PlayerStartWithTag = "PA.PlayerStartingSeeds";
         public static string PlayerStartWithIntro => "PA.ScenPart_StartingSeeds".Translate();
 
@@ -66,11 +66,6 @@ namespace ProgressionAgriculture
                 }
                 Find.WindowStack.Add(new FloatMenu(list));
             }
-        }
-
-        public override bool HasNullDefs()
-        {
-            return !base.HasNullDefs() && thingDef != null;
         }
     }
 }
