@@ -13,7 +13,7 @@
             "command": "dotnet",
             "args": [
                 "build",
-                "${workspaceFolder}/1.5/Source/ProgressionAgriculture.csproj"
+                "${workspaceFolder}/1.6/Source/ProgressionAgriculture.csproj"
             ],
             "problemMatcher": "$msCompile",
             "group": {
