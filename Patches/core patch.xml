@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Patch>              
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
 
-<!-- Rename plant -->
+    <!-- Rename plant -->
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>Defs/ThingDef[defName="PlantPot"]/label</xpath>
         <value>
-        <label>plant decoration</label>
+            <label>plant decoration</label>
         </value>
     </Operation>
 
-        <!-- NO PREREQUISITES UNLESS IT'S AN SOS2 PLANT -->
+    <!-- NO PREREQUISITES UNLESS IT'S AN SOS2 PLANT -->
     <Operation Class="PatchOperationConditional">
         <xpath>Defs/ThingDef/plant/sowResearchPrerequisites</xpath>
         <match Class="PatchOperationRemove">
@@ -18,7 +18,7 @@
         </match>
     </Operation>
 
-                <!-- REORGANIZE STUFF -->
+    <!-- REORGANIZE STUFF -->
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>Defs/ThingDef[defName="HydroponicsBasin"]/designationCategory</xpath>
@@ -28,96 +28,97 @@
     </Operation>
 
 
+    <!-- FUCK THESE RESEARCH PROJECTS -->
+
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisites/li[.="TreeSowing"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="TreeSowing"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="Cocoa"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="Devilstrand"]</xpath>
+    </Operation>
 
 
-           <!-- FUCK THESE RESEARCH PROJECTS -->
+    <!-- SCENARIO PATCHES -->
 
-      <Operation Class="PatchOperationRemove">
-          <success>Always</success>
-          <xpath>Defs/ResearchProjectDef[defName="TreeSowing"]</xpath>
-      </Operation>
-      <Operation Class="PatchOperationRemove">
-          <success>Always</success>
-          <xpath>Defs/ResearchProjectDef[defName="Cocoa"]</xpath>
-      </Operation>
-      <Operation Class="PatchOperationRemove">
-          <success>Always</success>
-          <xpath>Defs/ResearchProjectDef[defName="Devilstrand"]</xpath>
-      </Operation>
-
-
-
-                <!-- SCENARIO PATCHES -->
-
-<!-- CRASHLANDED -->
+    <!-- CRASHLANDED -->
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/ScenarioDef[defName="Crashlanded"]/scenario/parts</xpath>
         <value>
-        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-            <def>Ferny_StartingSeeds</def>
-            <thingDef>Plant_Rice_SeedBundle</thingDef>
-        </li>
-        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-            <def>Ferny_StartingSeeds</def>
-            <thingDef>Plant_Potato_SeedBundle</thingDef>
-        </li>
-        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-            <def>Ferny_StartingSeeds</def>
-            <thingDef>Plant_Healroot_SeedBundle</thingDef>
-        </li>
-        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-            <def>Ferny_StartingSeeds</def>
-            <thingDef>Plant_Cotton_SeedBundle</thingDef>
-        </li>
-        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-            <def>Ferny_StartingSeeds</def>
-            <thingDef>Plant_Psychoid_SeedBundle</thingDef>
-        </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+                <def>Ferny_StartingSeeds</def>
+                <thingDef>Plant_Rice_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+                <def>Ferny_StartingSeeds</def>
+                <thingDef>Plant_Potato_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+                <def>Ferny_StartingSeeds</def>
+                <thingDef>Plant_Healroot_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+                <def>Ferny_StartingSeeds</def>
+                <thingDef>Plant_Cotton_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+                <def>Ferny_StartingSeeds</def>
+                <thingDef>Plant_Psychoid_SeedBundle</thingDef>
+            </li>
         </value>
     </Operation>
 
-<!-- LOST TRIBE -->
+    <!-- LOST TRIBE -->
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/ScenarioDef[defName="LostTribe"]/scenario/parts</xpath>
         <value>
-        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-            <def>Ferny_StartingSeeds</def>
-            <thingDef>Plant_Potato_SeedBundle</thingDef>
-        </li>
-        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-            <def>Ferny_StartingSeeds</def>
-            <thingDef>Plant_Healroot_SeedBundle</thingDef>
-        </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+                <def>Ferny_StartingSeeds</def>
+                <thingDef>Plant_Potato_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+                <def>Ferny_StartingSeeds</def>
+                <thingDef>Plant_Healroot_SeedBundle</thingDef>
+            </li>
         </value>
     </Operation>
 
-<!-- RICH EXPLORER -->
+    <!-- RICH EXPLORER -->
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/ScenarioDef[defName="TheRichExplorer"]/scenario/parts</xpath>
         <value>
-        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-            <def>Ferny_StartingSeeds</def>
-            <thingDef>Plant_Rice_SeedBundle</thingDef>
-        </li>
-        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-            <def>Ferny_StartingSeeds</def>
-            <thingDef>Plant_Potato_SeedBundle</thingDef>
-        </li>
-        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-            <def>Ferny_StartingSeeds</def>
-            <thingDef>Plant_Healroot_SeedBundle</thingDef>
-        </li>
-        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-            <def>Ferny_StartingSeeds</def>
-            <thingDef>Plant_Cotton_SeedBundle</thingDef>
-        </li>
-        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-            <def>Ferny_StartingSeeds</def>
-            <thingDef>Plant_Psychoid_SeedBundle</thingDef>
-        </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+                <def>Ferny_StartingSeeds</def>
+                <thingDef>Plant_Rice_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+                <def>Ferny_StartingSeeds</def>
+                <thingDef>Plant_Potato_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+                <def>Ferny_StartingSeeds</def>
+                <thingDef>Plant_Healroot_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+                <def>Ferny_StartingSeeds</def>
+                <thingDef>Plant_Cotton_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+                <def>Ferny_StartingSeeds</def>
+                <thingDef>Plant_Psychoid_SeedBundle</thingDef>
+            </li>
         </value>
     </Operation>
 
