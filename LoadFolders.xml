@@ -35,6 +35,7 @@
     <li IfModActive="xmb.ancienthydroponicfarmfacilities.mo">Mods and Shit/Ancient Hydroponic Farm Facilities</li>
     <!-- <li IfModActive="oskarpotocki.vfe.medieval2">Mods and Shit/VFE Medieval 2</li> -->
     <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
+    <li IfModActive="sarg.alphabiomes">Mods and Shit/Alpha Biomes</li>
   </v1.5>
   <v1.6>
     <li>/</li>
@@ -72,5 +73,6 @@
     <li IfModActive="xmb.ancienthydroponicfarmfacilities.mo">Mods and Shit/Ancient Hydroponic Farm Facilities</li>
     <!-- <li IfModActive="oskarpotocki.vfe.medieval2">Mods and Shit/VFE Medieval 2</li> -->
     <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
+    <li IfModActive="sarg.alphabiomes">Mods and Shit/Alpha Biomes</li>
   </v1.6>
 </loadFolders>
