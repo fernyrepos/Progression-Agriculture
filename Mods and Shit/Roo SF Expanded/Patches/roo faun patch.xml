@@ -10,9 +10,9 @@
     <success>Always</success>
     <xpath>Defs/ScenarioDef[defName="RBSFE_LastFaeStanding"]/scenario/parts</xpath>
     <value>
-      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-        <def>Ferny_StartingSeeds</def>
-        <thingDef>Plant_Potato_SeedBundle</thingDef>
+      <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+          <_itemCount>1</_itemCount>
+          <def>RandomSeedBundles</def>
       </li>
       <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
         <def>Ferny_StartingSeeds</def>
@@ -25,9 +25,9 @@
     <success>Always</success>
     <xpath>Defs/ScenarioDef[defName="RBSFE_SabotagedBards"]/scenario/parts</xpath>
     <value>
-      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-        <def>Ferny_StartingSeeds</def>
-        <thingDef>Plant_Potato_SeedBundle</thingDef>
+      <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+          <_itemCount>2</_itemCount>
+          <def>RandomSeedBundles</def>
       </li>
       <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
         <def>Ferny_StartingSeeds</def>
@@ -44,13 +44,9 @@
     <success>Always</success>
     <xpath>Defs/ScenarioDef[defName="RBSFE_TheFaunScientists"]/scenario/parts</xpath>
     <value>
-      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-        <def>Ferny_StartingSeeds</def>
-        <thingDef>Plant_Rice_SeedBundle</thingDef>
-      </li>
-      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
-        <def>Ferny_StartingSeeds</def>
-        <thingDef>Plant_Potato_SeedBundle</thingDef>
+      <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+          <_itemCount>2</_itemCount>
+          <def>RandomSeedBundles</def>
       </li>
       <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
         <def>Ferny_StartingSeeds</def>
