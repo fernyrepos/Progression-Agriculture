@@ -54,10 +54,6 @@
         <success>Always</success>
         <xpath>Defs/ScenarioDef[defName="Crashlanded"]/scenario/parts</xpath>
         <value>
-        <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
-            <ScenPart_RandomSeedBundles_itemCount>2</ScenPart_RandomSeedBundles_itemCount>
-            <def>RandomSeedBundles</def>
-        </li>
         <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
             <def>Ferny_StartingSeeds</def>
             <thingDef>Plant_Healroot_SeedBundle</thingDef>
@@ -78,10 +74,6 @@
         <success>Always</success>
         <xpath>Defs/ScenarioDef[defName="LostTribe"]/scenario/parts</xpath>
         <value>
-        <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
-            <ScenPart_RandomSeedBundles_itemCount>1</ScenPart_RandomSeedBundles_itemCount>
-            <def>RandomSeedBundles</def>
-        </li>
         <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
             <def>Ferny_StartingSeeds</def>
             <thingDef>Plant_Healroot_SeedBundle</thingDef>
@@ -105,10 +97,6 @@
         <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
             <def>Ferny_StartingSeeds</def>
             <thingDef>Plant_Psychoid_SeedBundle</thingDef>
-        </li>
-        <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
-            <ScenPart_RandomSeedBundles_itemCount>2</ScenPart_RandomSeedBundles_itemCount>
-            <def>RandomSeedBundles</def>
         </li>
         </value>
     </Operation>
