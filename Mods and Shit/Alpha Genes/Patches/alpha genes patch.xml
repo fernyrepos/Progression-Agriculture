@@ -6,7 +6,7 @@
         <xpath>Defs/ScenarioDef[defName="AG_WretchScenario"]/scenario/parts</xpath>
         <value>
         <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
-            <ScenPart_RandomSeedBundles_itemCount>1</ScenPart_RandomSeedBundles_itemCount>
+            <_itemCount>1</_itemCount>
             <def>RandomSeedBundles</def>
         </li>
         <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
