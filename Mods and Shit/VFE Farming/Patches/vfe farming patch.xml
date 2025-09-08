@@ -11,40 +11,4 @@
     </match>
   </Operation>
   
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[defName="VFE_PlanterBox"]/designationCategory</xpath>
-    <value>
-      <designationCategory>Ferny_Farming</designationCategory>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[defName="VFE_Ecosystem"]/designationCategory</xpath>
-    <value>
-      <designationCategory>Ferny_Farming</designationCategory>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[@Name="VFE_TilableHydroponics_Base"]/designationCategory</xpath>
-    <value>
-      <designationCategory>Ferny_Farming</designationCategory>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[defName="VFE_Scarecrow"]/designationCategory</xpath>
-    <value>
-      <designationCategory>Ferny_Farming</designationCategory>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[defName="VFE_Sprinkler"]/designationCategory</xpath>
-    <value>
-      <designationCategory>Ferny_Farming</designationCategory>
-    </value>
-  </Operation>
-  
 </Patch>

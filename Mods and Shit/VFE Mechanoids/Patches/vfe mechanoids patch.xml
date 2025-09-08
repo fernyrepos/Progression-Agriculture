@@ -12,27 +12,4 @@
         </value>
     </Operation>
 
-
-
-
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="VFE_Mechanoids_Autoharvester"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Ferny_Farming</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="VFE_Mechanoids_Autosower"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Ferny_Farming</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="VFE_BlightAutoRepeller"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Ferny_Farming</designationCategory>
-                    </value>
-                </Operation>
-
-
 </Patch>

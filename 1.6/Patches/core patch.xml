@@ -18,16 +18,6 @@
         </match>
     </Operation>
 
-                <!-- REORGANIZE STUFF -->
-    <Operation Class="PatchOperationReplace">
-        <success>Always</success>
-        <xpath>Defs/ThingDef[defName="HydroponicsBasin"]/designationCategory</xpath>
-        <value>
-            <designationCategory>Ferny_Farming</designationCategory>
-        </value>
-    </Operation>
-
-
 
 
            <!-- FUCK THESE RESEARCH PROJECTS -->
