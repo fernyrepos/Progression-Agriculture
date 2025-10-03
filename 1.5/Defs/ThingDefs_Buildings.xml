@@ -35,7 +35,7 @@
             <Flammability>1.0</Flammability>
             <Cleanliness>-2</Cleanliness>
         </statBases>
-        <designationCategory>Ferny_Farming</designationCategory>
+        <designationCategory>Production</designationCategory>
         <uiOrder>2520</uiOrder>
         <passability>PassThroughOnly</passability>
         <pathCost>50</pathCost>
@@ -87,7 +87,7 @@
         <scatterableOnMapGen>false</scatterableOnMapGen>
         <useHitPoints>false</useHitPoints>
         <size>(1,1)</size>
-        <designationCategory>Ferny_Farming</designationCategory>
+        <designationCategory>Production</designationCategory>
         <uiOrder>2001</uiOrder>
         <passability>Standable</passability>
         <hasInteractionCell>True</hasInteractionCell>

@@ -23,7 +23,7 @@
         <success>Always</success>
         <xpath>Defs/ThingDef[defName="HydroponicsBasin"]/designationCategory</xpath>
         <value>
-            <designationCategory>Ferny_Farming</designationCategory>
+            <designationCategory>Production</designationCategory>
         </value>
     </Operation>
 
