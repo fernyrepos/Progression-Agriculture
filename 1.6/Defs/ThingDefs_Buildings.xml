@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="BenchBase">
         <defName>SeedPackingBench</defName>
-        <label>Seed packing bench</label>
+        <label>seed packing bench</label>
         <description>A workbench for packing seed bundles from harvested crops.</description>
         <size>(2,1)</size>
         <thingClass>Building_WorkTable</thingClass>
@@ -71,7 +71,7 @@
 
     <ThingDef ParentName="BuildingBase">
         <defName>SeedPackingCraftingSpot</defName>
-        <label>Seed packing spot</label>
+        <label>seed packing spot</label>
         <description>A spot for packing seed bundles from harvested crops at double the cost of a traditional packing bench.</description>
         <thingClass>Building_WorkTable</thingClass>
         <graphicData>
