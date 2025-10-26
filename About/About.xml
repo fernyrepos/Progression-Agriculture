@@ -14,6 +14,9 @@
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2329011599</steamWorkshopUrl>
 		</li>
 	</modDependencies>
+    <incompatibleWith>
+        <li>arthurgc.randomvegetables</li>
+    </incompatibleWith>
 	<description>Integrates agriculture mods into Vanilla progression.</description>
 	<loadAfter>
 		<li>Ludeon.Rimworld</li>
