@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Latent Psychic Runaways -->
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Royalty</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <success>Always</success>
+                    <xpath>Defs/ScenarioDef[defName="HVT_LatentPsychics"]/scenario/parts</xpath>
+                    <value>
+                        <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+                            <_itemCount>2</_itemCount>
+                            <def>RandomSeedBundles</def>
+                        </li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <success>Always</success>
+                    <xpath>Defs/ScenarioDef[defName="HVT_LatentPsychicsTribal"]/scenario/parts</xpath>
+                    <value>
+                        <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+                            <_itemCount>2</_itemCount>
+                            <def>RandomSeedBundles</def>
+                        </li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

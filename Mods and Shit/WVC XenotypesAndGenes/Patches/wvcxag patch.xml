@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Long Running Joke, Raised from the Dead, With All Eyes, From the Void: omitted -->
+    <!-- Tribal Mechanitor -->
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef[defName="WVC_XenotypesAndGenes_RuneDryad"]/scenario/parts</xpath>
+        <value>
+            <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+                <_itemCount>2</_itemCount>
+                <def>RandomSeedBundles</def>
+            </li>
+        </value>
+    </Operation>
+</Patch>
