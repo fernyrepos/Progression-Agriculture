@@ -75,5 +75,16 @@
     <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
     <li IfModActive="sarg.alphabiomes">Mods and Shit/Alpha Biomes</li>
     <li IfModActive="Erin.HotDrink">Mods and Shit/Erins Hot Drink</li>
+    <li IfModActive="Ludeon.RimWorld.Odyssey">Mods and Shit/Odyssey</li>
+    <li IfModActive="RedMattis.BetterPrerequisites">Mods and Shit/BigAndSmall Framework</li>
+    <li IfModActive="XMB.AncientUrbanrUins.MO">Mods and Shit/Ancient Urban Ruins</li>
+    <li IfModActive="onyxae.dragonsdescent">Mods and Shit/Dragons Descent</li>
+    <li IfModActive="VexedTrees980.RimGnoblinsBiotech">Mods and Shit/Rim-Gnoblins</li>
+    <li IfModActive="Rimsenal.Spacer">Mods and Shit/Rimsenal Spacer</li>
+    <li IfModActive="wvc.sergkart.races.biotech">Mods and Shit/WVC XenotypesAndGenes</li>
+    <li IfModActive="Hautarche.HautsTraits">Mods and Shit/Hauts Added Traits</li>
+    <li IfModActive="GoGaTio.NewAnomalyThreats">Mods and Shit/New Anomaly Threats</li>
+    <li IfModActive="RedMattis.BigSmall">Mods and Shit/BigAndSmall Races</li>
+    <li IfModActive="RedMattis.LamiasAndOtherSnakes">Mods and Shit/BigAndSmall Snakes</li>
   </v1.6>
 </loadFolders>
