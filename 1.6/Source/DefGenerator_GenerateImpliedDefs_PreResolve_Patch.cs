@@ -131,7 +131,7 @@ namespace ProgressionAgriculture
 			seedBundleDef.selectable = true;
 			seedBundleDef.thingSetMakerTags = new List<string>
 			{
-				"RewardStandardCore"
+				"RewardStandardLowFreq"
 			};
 			seedBundleDef.descriptionHyperlinks = new List<DefHyperlink>
 				{
