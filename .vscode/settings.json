@@ -1,4 +1,7 @@
 {
     "dotnet.preferCSharpExtension": true,
-    "dotnet.defaultSolution": "1.6/Source/ProgressionAgriculture.sln"
+    "dotnet.defaultSolution": "1.6/Source/ProgressionAgriculture.sln",
+    "files.exclude": {
+        "1.5/": true
+    }
 }

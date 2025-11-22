@@ -7,6 +7,10 @@ using System.Runtime.InteropServices;
 
 namespace ProgressionAgriculture
 {
+	public class ExcludeFromAgriculture : DefModExtension
+	{
+	    
+	}
 	[HarmonyPatch(typeof(DefGenerator), "GenerateImpliedDefs_PreResolve")]
 	public static class DefGenerator_GenerateImpliedDefs_PreResolve_Patch
 	{
@@ -22,11 +26,9 @@ namespace ProgressionAgriculture
 				}
 			}
 
-			foreach (ThingDef cropDef in DefDatabase<ThingDef>.AllDefs.Where(x => x.plant != null && x.plant.Sowable).ToList())
+			foreach (ThingDef cropDef in DefDatabase<ThingDef>.AllDefs.Where(x => x.plant != null && x.plant.Sowable && x.plant.IsTree is false && x.HasModExtension<ExcludeFromAgriculture>() is false).ToList())
 			{
-				if (sowableCrops.Contains(cropDef) ||
-						(ModsConfig.IsActive("kentington.saveourship2")
-                        	&& cropDef.plant?.sowResearchPrerequisites?.Any(researchDef => researchDef.defName == "ArchotechPlants") == true)){
+				if (sowableCrops.Contains(cropDef)){
 					continue;
 				}
 
