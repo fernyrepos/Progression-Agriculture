@@ -22,12 +22,6 @@ namespace ProgressionAgriculture
 				}
 			}
 
-			var traderKindDefs = DefDatabase<TraderKindDef>.AllDefs.Where(x => x.defName.Contains("Bulk"));
-			foreach (var traderKindDef in traderKindDefs.ToList())
-			{
-				traderKindDef.stockGenerators.Add(new StockGenerator_Tag { tradeTag = "Seeds", thingDefCountRange = new IntRange(2, 4), countRange = new IntRange(1, 1) });
-			}
-
 			foreach (ThingDef cropDef in DefDatabase<ThingDef>.AllDefs.Where(x => x.plant != null && x.plant.Sowable).ToList())
 			{
 				if (sowableCrops.Contains(cropDef) ||
