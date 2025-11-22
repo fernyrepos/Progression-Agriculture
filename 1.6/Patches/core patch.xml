@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>              
 
+<!-- Traders -->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[(techLevel = "Undefined" or techLevel = "Animal" or techLevel = "Neolithic" or techLevel = "Medieval") and boolean(caravanTraderKinds)]/caravanTraderKinds</xpath>
+        <value>
+            <li>AgriculturalTrader</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraderKindDef[contains(defName, "Bulk")]/stockGenerators</xpath>
+        <value>
+            <li Class="StockGenerator_Tag">
+                <tradeTag>Seeds</tradeTag>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <countRange>1~1</countRange>
+            </li>
+        </value>
+    </Operation>
+
+
 <!-- Rename plant -->
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
