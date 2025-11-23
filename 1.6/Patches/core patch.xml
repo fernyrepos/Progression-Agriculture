@@ -7,9 +7,9 @@
         <xpath>Defs/FactionDef[(techLevel = "Undefined" or techLevel = "Animal" or techLevel = "Neolithic" or techLevel = "Medieval" or techLevel = "Industrial")]/caravanTraderKinds</xpath>
         <match Class="PatchOperationAdd">
             <xpath>Defs/FactionDef[(techLevel = "Undefined" or techLevel = "Animal" or techLevel = "Neolithic" or techLevel = "Medieval" or techLevel = "Industrial")]/caravanTraderKinds</xpath>
-			<value>
-				<li>AgriculturalTrader</li>
-			</value>
+            <value>
+                <li>AgriculturalTrader</li>
+            </value>
         </match>
     </Operation>
 
@@ -34,6 +34,13 @@
         </value>
     </Operation>
 
+    <!-- NO PREREQUISITES UNLESS IT'S AN SOS2 PLANT -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef/plant/sowResearchPrerequisites</xpath>
+        <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef/plant/sowResearchPrerequisites/li[not(text()="ArchotechPlants")]</xpath>
+        </match>
+    </Operation>
 
     <!-- FUCK THESE RESEARCH PROJECTS -->
     <Operation Class="PatchOperationRemove">
