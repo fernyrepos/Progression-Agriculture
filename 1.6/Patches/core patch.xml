@@ -34,11 +34,12 @@
         </value>
     </Operation>
 
-    <!-- NO PREREQUISITES UNLESS IT'S AN SOS2 PLANT -->
+    <!-- NO PREREQUISITES UNLESS IT'S AN SOS2 PLANT or tree -->
     <Operation Class="PatchOperationConditional">
         <xpath>Defs/ThingDef/plant/sowResearchPrerequisites</xpath>
         <match Class="PatchOperationRemove">
-            <xpath>Defs/ThingDef/plant/sowResearchPrerequisites/li[not(text()="ArchotechPlants")]</xpath>
+            <xpath>Defs/ThingDef/plant/sowResearchPrerequisites/li[not(text()="ArchotechPlants") and not(text()="TreeSowing")
+        ]</xpath>
         </match>
     </Operation>
 
