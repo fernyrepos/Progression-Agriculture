@@ -3,15 +3,15 @@
 
 
 
-                <Operation Class="PatchOperationRemove">
+                <!-- <Operation Class="PatchOperationRemove">
                     <xpath>Defs/MemeDef[defName="TreeConnection"]/startingResearchProjects</xpath>
-                </Operation>
+                </Operation> -->
 
 
 
 
                         <!-- VFE TRIBALS BONSAI POT -->
-	<Operation Class="PatchOperationFindMod">
+	<!-- <Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Factions Expanded - Tribals</li>
 		</mods>
@@ -34,7 +34,7 @@
         </li>
         </operations>
         </nomatch>
-	</Operation>
+	</Operation> -->
 
 
 </Patch>

@@ -86,5 +86,6 @@
     <li IfModActive="GoGaTio.NewAnomalyThreats">Mods and Shit/New Anomaly Threats</li>
     <li IfModActive="RedMattis.BigSmall">Mods and Shit/BigAndSmall Races</li>
     <li IfModActive="RedMattis.LamiasAndOtherSnakes">Mods and Shit/BigAndSmall Snakes</li>
+    <li IfModActive="det.epochsgolems">Mods and Shit/Epochs Golems</li>
   </v1.6>
 </loadFolders>

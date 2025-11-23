@@ -60,10 +60,15 @@
     </Operation>
 
 
-
-
-
-
+      <Operation Class="PatchOperationReplace">
+          <success>Always</success>
+          <xpath>Defs/ResearchProjectDef[defName="DankPyon_TreeGriffonBerry"]/prerequisites</xpath>
+          <value>
+            <prerequisites>
+                <li>Cocoa</li>
+            </prerequisites>
+          </value>
+      </Operation>
 
 
                         <!-- FUCK THESE RESEARCH PROJECTS -->
@@ -75,10 +80,17 @@
           <success>Always</success>
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_AdvancedAgriculture"]</xpath>
       </Operation>
-      <Operation Class="PatchOperationRemove">
+      <!-- <Operation Class="PatchOperationRemove">
           <success>Always</success>
           <xpath>Defs/ResearchProjectDef[defName="DankPyon_TreeGriffonBerry"]</xpath>
-      </Operation>
+      </Operation> -->
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="DankPyon_Tree_GriffonBerry"]</xpath>
+        <value>
+            <li Class="ProgressionAgriculture.ExcludeFromAgriculture"></li>
+        </value>
+    </Operation>
 
 
                         <!-- VE PLANTS OVERLAP -->

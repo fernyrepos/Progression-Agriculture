@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
   
-  <Operation Class="PatchOperationFindMod">
+  <!-- <Operation Class="PatchOperationFindMod">
     <mods>
       <li>Erin's Hot Drinks</li>
     </mods>
@@ -9,6 +9,6 @@
       <success>Always</success>
       <xpath>Defs/ResearchProjectDef[defName="ERN_ModernBeverages"]/hiddenPrerequisites/li[text()="Cocoa"]</xpath>
     </match>
-  </Operation>
+  </Operation> -->
   
 </Patch>

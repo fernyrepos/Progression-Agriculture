@@ -38,16 +38,20 @@
     <Operation Class="PatchOperationConditional">
         <xpath>Defs/ThingDef/plant/sowResearchPrerequisites</xpath>
         <match Class="PatchOperationRemove">
-            <xpath>Defs/ThingDef/plant/sowResearchPrerequisites/li[not(text()="ArchotechPlants") and not(text()="TreeSowing")
+            <xpath>Defs/ThingDef/plant/sowResearchPrerequisites/li[not(text()="ArchotechPlants") 
+            and not(text()="TreeSowing") 
+            and not(text()="Cocoa") 
+            and not(text()="DankPyon_TreeGriffonBerry") 
+            and not(text()="DV_GolemResearch_AnimaBlooms") 
         ]</xpath>
         </match>
     </Operation>
 
     <!-- FUCK THESE RESEARCH PROJECTS -->
-    <Operation Class="PatchOperationRemove">
+    <!-- <Operation Class="PatchOperationRemove">
         <success>Always</success>
         <xpath>Defs/ResearchProjectDef[defName="Cocoa"]</xpath>
-    </Operation>
+    </Operation> -->
     <Operation Class="PatchOperationRemove">
         <success>Always</success>
         <xpath>Defs/ResearchProjectDef[defName="Devilstrand"]</xpath>
