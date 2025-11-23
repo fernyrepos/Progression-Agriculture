@@ -18,17 +18,11 @@ namespace ProgressionAgriculture
 		public static HashSet<ThingDef> generatedBundles = new HashSet<ThingDef>();
 		public static void Postfix(bool hotReload = false)
 		{
-			foreach (var faction in DefDatabase<FactionDef>.AllDefs)
+			foreach (ThingDef cropDef in DefDatabase<ThingDef>.AllDefs.Where(x => x.plant != null && x.plant.Sowable).ToList())
 			{
-				if (faction.techLevel < TechLevel.Spacer && faction.caravanTraderKinds != null)
-				{
-					faction.caravanTraderKinds.Add(PA_DefOf.AgriculturalTrader);
-				}
-			}
-
-			foreach (ThingDef cropDef in DefDatabase<ThingDef>.AllDefs.Where(x => x.plant != null && x.plant.Sowable && x.plant.IsTree is false && x.HasModExtension<ExcludeFromAgriculture>() is false).ToList())
-			{
-				if (sowableCrops.Contains(cropDef)){
+				if (sowableCrops.Contains(cropDef) ||
+						(ModsConfig.IsActive("kentington.saveourship2")
+                        	&& cropDef.plant?.sowResearchPrerequisites?.Any(researchDef => researchDef.defName == "ArchotechPlants") == true)){
 					continue;
 				}
 

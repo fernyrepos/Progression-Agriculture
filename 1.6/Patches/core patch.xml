@@ -3,11 +3,14 @@
 
     <!-- Traders -->
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/FactionDef[(techLevel = "Undefined" or techLevel = "Animal" or techLevel = "Neolithic" or techLevel = "Medieval") and boolean(caravanTraderKinds)]/caravanTraderKinds</xpath>
-        <value>
-            <li>AgriculturalTrader</li>
-        </value>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/FactionDef[(techLevel = "Undefined" or techLevel = "Animal" or techLevel = "Neolithic" or techLevel = "Medieval" or techLevel = "Industrial")]/caravanTraderKinds</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/FactionDef[(techLevel = "Undefined" or techLevel = "Animal" or techLevel = "Neolithic" or techLevel = "Medieval" or techLevel = "Industrial")]/caravanTraderKinds</xpath>
+			<value>
+				<li>AgriculturalTrader</li>
+			</value>
+        </match>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
