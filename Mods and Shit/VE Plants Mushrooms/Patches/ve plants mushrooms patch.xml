@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="VPE_Plant_Timbercap"]</xpath>
+        <value>
+            <li Class="ProgressionAgriculture.IncludeToAgriculture"></li>
+        </value>
+    </Operation>
+
 </Patch>

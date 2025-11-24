@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="Plant_Fibercorn"]</xpath>
+        <value>
+            <li Class="ProgressionAgriculture.IncludeToAgriculture"></li>
+        </value>
+    </Operation>
 
                 <!-- <Operation Class="PatchOperationRemove">
                     <xpath>Defs/MemeDef[defName="TreeConnection"]/startingResearchProjects</xpath>
