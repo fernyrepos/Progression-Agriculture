@@ -185,11 +185,71 @@
                     </ReplaceLib.ReplacerDef>
                     </value>
                 </li>
-                </operations>
+                <li Class="PatchOperationFindMod">
+                    <mods>
+                        <li>Vanilla Cooking Expanded</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                        <operations>
+                            <li Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName="VCE_Sorghum"]/plant/harvestedThingDef</xpath>
+                                <value>
+                                    <harvestedThingDef>DankPyon_RawWheat</harvestedThingDef>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName="VCE_Barley"]/plant/harvestedThingDef</xpath>
+                                <value>
+                                    <harvestedThingDef>DankPyon_RawWheat</harvestedThingDef>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName="VCE_Oats"]/plant/harvestedThingDef</xpath>
+                                <value>
+                                    <harvestedThingDef>DankPyon_RawWheat</harvestedThingDef>
+                                </value>
+                            </li>
+                            <li Class="PatchOperationReplace">
+                                <xpath>Defs/ThingDef[defName="VCE_Rye"]/plant/harvestedThingDef</xpath>
+                                <value>
+                                    <harvestedThingDef>DankPyon_RawWheat</harvestedThingDef>
+                                </value>
+                            </li>
+                        </operations>
+                    </match>
+                </li>
+            </operations>
 		</match>
 	</Operation>
 
-
+                        <!-- VE COOKING OVERLAP -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+            <match Class="PatchOperationSequence">
+                <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs</xpath>
+                    <value>
+                    <ReplaceLib.ReplacerDef>
+                        <defName>MedievalOverhaul_VECooking</defName>
+                        <replacers>
+                            <li>
+                                <replace>VCE_Wheat</replace>
+                                <with>DankPyon_Plant_Wheat</with>
+                            </li>
+                            <li>
+                                <replace>VCE_Sugarcane</replace>
+                                <with>DankPyon_Plant_Sugarcane</with>
+                            </li>
+                        </replacers>
+                    </ReplaceLib.ReplacerDef>
+                    </value>
+                </li>
+                </operations>
+		</match>
+	</Operation>
 
       <Operation Class="PatchOperationReplace">
           <success>Always</success>
