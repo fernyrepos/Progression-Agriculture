@@ -222,7 +222,7 @@
 		</match>
 	</Operation>
 
-                        <!-- VE COOKING OVERLAP -->
+                    <!-- VE COOKING OVERLAP -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Cooking Expanded</li>
@@ -239,10 +239,6 @@
                                 <replace>VCE_Wheat</replace>
                                 <with>DankPyon_Plant_Wheat</with>
                             </li>
-                            <li>
-                                <replace>VCE_Sugarcane</replace>
-                                <with>DankPyon_Plant_Sugarcane</with>
-                            </li>
                         </replacers>
                     </ReplaceLib.ReplacerDef>
                     </value>
@@ -251,7 +247,7 @@
 		</match>
 	</Operation>
 
-      <Operation Class="PatchOperationReplace">
+    <Operation Class="PatchOperationReplace">
           <success>Always</success>
           <xpath>Defs/ThingDef[defName="DankPyon_Post"]/researchPrerequisites</xpath>
           <value>
