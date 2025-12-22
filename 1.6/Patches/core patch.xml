@@ -43,6 +43,7 @@
             and not(text()="Cocoa") 
             and not(text()="DankPyon_TreeGriffonBerry") 
             and not(text()="DV_GolemResearch_AnimaBlooms") 
+            and not(text()="TSF_CherryBlossomSowing") 
         ]</xpath>
         </match>
     </Operation>
