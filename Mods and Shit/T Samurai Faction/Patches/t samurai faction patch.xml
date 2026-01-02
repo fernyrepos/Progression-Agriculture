@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="DankPyon_Tree_GriffonBerry"]</xpath>
+        <value>
+            <li Class="ProgressionAgriculture.ExcludeFromAgriculture"></li>
+        </value>
+    </Operation> -->
+
+</Patch>
