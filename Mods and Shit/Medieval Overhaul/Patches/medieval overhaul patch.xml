@@ -620,6 +620,19 @@
       </operations>
     </match>
   </Operation>
+
+
+  <!-- OTHER MISC PATCHES -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_RawCotton"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>PlantMatter</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
   <!-- 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
