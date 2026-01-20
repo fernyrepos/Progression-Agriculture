@@ -67,6 +67,9 @@
             <li>PlaceWorker_ShowFacilitiesConnections</li>
             <li>PlaceWorker_PreventInteractionSpotOverlap</li>
         </placeWorkers>
+        <researchPrerequisites>
+        <li>Ferny_SeedPackingBench</li>
+        </researchPrerequisites>
     </ThingDef>
 
     <ThingDef ParentName="BuildingBase">

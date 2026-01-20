@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<!-- Seed packing bench -->
+	<ResearchProjectDef>
+		<defName>Ferny_SeedPackingBench</defName>
+		<label>Seed packing bench</label>
+		<description>Build a bench capable of packaging smaller amounts of harvested product into usable seed bundles.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>24.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>
