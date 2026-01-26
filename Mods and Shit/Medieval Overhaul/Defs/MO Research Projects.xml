@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<!-- Millstone -->
+	<ResearchProjectDef>
+		<defName>Ferny_Millstone</defName>
+		<label>Millstone</label>
+		<description>Build a small primitive device capable of grinding harvested product into fine grains.</description>
+		<baseCost>450</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>24.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

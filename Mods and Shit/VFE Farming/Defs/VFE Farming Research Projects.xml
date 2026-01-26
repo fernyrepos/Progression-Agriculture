@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<!-- Scarecrow -->
+	<!-- <ResearchProjectDef>
+		<defName>Ferny_Scarecrow</defName>
+		<label>Scarecrow</label>
+		<description>Build a primitive humanoid figure capable of scaring off small animals.</description>
+		<baseCost>350</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>24.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef> -->
+
+</Defs>

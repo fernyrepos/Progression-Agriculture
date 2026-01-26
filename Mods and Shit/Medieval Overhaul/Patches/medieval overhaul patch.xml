@@ -289,25 +289,6 @@
 
 
 
-
-
-
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="VFE_Scarecrow"]/researchPrerequisites</xpath>
-                        <value>
-                            <researchPrerequisites>
-                                <li>DankPyon_BasicAgriculture</li>
-                            </researchPrerequisites>
-                        </value>
-                </li>
-                <li Class="PatchOperationRemove">
-                    <xpath>Defs/ResearchProjectDef[defName="VFE_Res_FarmingTechniques"]</xpath>
-                </li>
-
-
-
-
-
                 </operations>
 		</match>
 	</Operation>
@@ -350,6 +331,47 @@
                 </operations>
 		</match>
 	</Operation>
+
+
+
+
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DankPyon_PlowedSoil"]/label</xpath>
+        <value>
+        <label>soil plowing</label>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="DankPyon_Millstone"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="DankPyon_Millstone"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites>
+            <li>Ferny_Millstone</li>
+            </researchPrerequisites> 
+        </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DankPyon_Millstone"]</xpath>
+        <value>
+            <researchPrerequisites>
+            <li>Ferny_Millstone</li>
+            </researchPrerequisites> 
+        </value>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DankPyon_BasicAgriculture"]/label</xpath>
+        <value>
+        <label>planter boxes</label>
+        </value>
+    </Operation>
+
 <!-- 
 	<Operation Class="PatchOperationFindMod">
 		<mods>

@@ -11,4 +11,18 @@
     </match>
   </Operation>
   
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ResearchProjectDef[defName="VFE_Res_FarmingTechniques"]/label</xpath>
+      <value>
+        <label>Scarecrow</label>
+      </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+      <xpath>/Defs/ResearchProjectDef[defName="VFE_Res_FarmingTechniques"]/description</xpath>
+      <value>
+        <description>Build a primitive humanoid figure capable of scaring off small animals.</description>
+      </value>
+    </Operation>
+
 </Patch>
