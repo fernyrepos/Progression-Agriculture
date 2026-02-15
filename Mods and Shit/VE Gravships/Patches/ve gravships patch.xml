@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- ORBITAL CHASE -->
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef[defName="TheGravship"]/scenario/parts</xpath>
+        <value>
+        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+            <def>Ferny_StartingSeeds</def>
+            <thingDef>VGE_OxyalgaePlant_SeedBundle</thingDef>
+        </li>
+        </value>
+    </Operation>
+
+
+
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef[defName="TheGravship"]/scenario/parts</xpath>
+        <value>
+        <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+            <def>Ferny_StartingSeeds</def>
+            <thingDef>VGE_OxyalgaePlant_SeedBundle</thingDef>
+        </li>
+        </value>
+    </Operation>
+
+</Patch>
