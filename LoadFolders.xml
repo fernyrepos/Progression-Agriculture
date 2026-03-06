@@ -87,5 +87,6 @@
     <li IfModActive="RedMattis.BigSmall">Mods and Shit/BigAndSmall Races</li>
     <li IfModActive="RedMattis.LamiasAndOtherSnakes">Mods and Shit/BigAndSmall Snakes</li>
     <li IfModActive="det.epochsgolems">Mods and Shit/Epochs Golems</li>
+    <li IfModActive="vanillaexpanded.gravship">Mods and Shit/VE Gravships</li>
   </v1.6>
 </loadFolders>

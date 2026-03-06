@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- <ResearchProjectDef>
+		<defName>Ferny_Oxyalgae</defName>
+		<label>Oxyalgae</label>
+		<description>Sow engineered aquatic algae, cultivated for use in life support systems for vacuum environments. Oxyalgae provides steady oxygen generation but spoils quickly if not processed.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>25.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef> -->
+
+</Defs>
