@@ -16,7 +16,7 @@
           "build/Krafs.Publicizer.targets": {}
         }
       },
-      "Krafs.Rimworld.Ref/1.6.4633": {
+      "Krafs.Rimworld.Ref/1.6.4752-beta": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -161,17 +161,17 @@
         "krafs.publicizer.nuspec"
       ]
     },
-    "Krafs.Rimworld.Ref/1.6.4633": {
-      "sha512": "wbUZCLBFHnNJ9IT4ighta1wrsBI9i/gRrfixPNfsMLlPvd/lksz+yv8H3Os7EIpT3O3wOkXgN3LGt8UHncWpzQ==",
+    "Krafs.Rimworld.Ref/1.6.4752-beta": {
+      "sha512": "zBYS5EiWfdTrPOk1dD5GvJcoTRFtzP5RF4a0apFS71xdp1ZCuHkdW3Izv1wfkBassF10xGoieS5kC9J+jC9dWQ==",
       "type": "package",
-      "path": "krafs.rimworld.ref/1.6.4633",
+      "path": "krafs.rimworld.ref/1.6.4752-beta",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "README.md",
         "icon.png",
-        "krafs.rimworld.ref.1.6.4633.nupkg.sha512",
+        "krafs.rimworld.ref.1.6.4752-beta.nupkg.sha512",
         "krafs.rimworld.ref.nuspec",
         "ref/net472/Assembly-CSharp-firstpass.dll",
         "ref/net472/Assembly-CSharp.dll",
@@ -401,7 +401,7 @@
             "version": "[2.*, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310\\RuntimeIdentifierGraph.json"
       }
     }
   }

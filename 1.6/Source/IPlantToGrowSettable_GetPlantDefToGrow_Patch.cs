@@ -6,9 +6,17 @@ using Verse;
 
 namespace ProgressionAgriculture
 {
-	[HarmonyPatch]
+	[StaticConstructorOnStartup]
 	public static class IPlantToGrowSettable_GetPlantDefToGrow_Patch
 	{
+		static IPlantToGrowSettable_GetPlantDefToGrow_Patch()
+		{
+			foreach (var method in TargetMethods())
+			{
+				ProgressionAgricultureMod.harmony.Patch(method, postfix: new HarmonyMethod(AccessTools.Method(typeof(IPlantToGrowSettable_GetPlantDefToGrow_Patch), nameof(Postfix))));
+			}
+		}
+
 		public static IEnumerable<MethodBase> TargetMethods()
 		{
 			var interfaceType = typeof(IPlantToGrowSettable);

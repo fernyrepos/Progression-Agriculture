@@ -1,4 +1,4 @@
-﻿using HarmonyLib;
+using HarmonyLib;
 using UnityEngine;
 using Verse;
 
@@ -7,9 +7,11 @@ namespace ProgressionAgriculture
 	public class ProgressionAgricultureMod : Mod
 	{
 		public static ProgressionAgricultureModSettings settings;
+		public static Harmony harmony;
 		public ProgressionAgricultureMod(ModContentPack pack) : base(pack)
 		{
-			new Harmony("ProgressionAgricultureMod").PatchAll();
+			harmony = new Harmony("ProgressionAgricultureMod");
+			harmony.PatchAll();
 			settings = GetSettings<ProgressionAgricultureModSettings>();
 		}
 
