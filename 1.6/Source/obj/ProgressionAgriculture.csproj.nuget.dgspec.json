@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj": {}
+    "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj": {}
   },
   "projects": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj": {
+    "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj",
+        "projectUniqueName": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj",
         "projectName": "ProgressionAgriculture",
-        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj",
-        "packagesPath": "C:\\Users\\Vova\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\obj\\",
+        "projectPath": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Vova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net48": {
@@ -62,7 +66,7 @@
               "version": "[2.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

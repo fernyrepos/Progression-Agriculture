@@ -16,7 +16,7 @@
           "build/Krafs.Publicizer.targets": {}
         }
       },
-      "Krafs.Rimworld.Ref/1.6.4752-beta": {
+      "Krafs.Rimworld.Ref/1.6.4850": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
@@ -161,17 +161,17 @@
         "krafs.publicizer.nuspec"
       ]
     },
-    "Krafs.Rimworld.Ref/1.6.4752-beta": {
-      "sha512": "zBYS5EiWfdTrPOk1dD5GvJcoTRFtzP5RF4a0apFS71xdp1ZCuHkdW3Izv1wfkBassF10xGoieS5kC9J+jC9dWQ==",
+    "Krafs.Rimworld.Ref/1.6.4850": {
+      "sha512": "QcKiaIW76BsywnW32EegthVFtQIKT8x2TCj5vQV2kuGJdu1+T2/kZzV/xfdyCZMvezMKM103auJAhBDdQB2xSw==",
       "type": "package",
-      "path": "krafs.rimworld.ref/1.6.4752-beta",
+      "path": "krafs.rimworld.ref/1.6.4850",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "README.md",
         "icon.png",
-        "krafs.rimworld.ref.1.6.4752-beta.nupkg.sha512",
+        "krafs.rimworld.ref.1.6.4850.nupkg.sha512",
         "krafs.rimworld.ref.nuspec",
         "ref/net472/Assembly-CSharp-firstpass.dll",
         "ref/net472/Assembly-CSharp.dll",
@@ -341,19 +341,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vova\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj",
+      "projectUniqueName": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj",
       "projectName": "ProgressionAgriculture",
-      "projectPath": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj",
-      "packagesPath": "C:\\Users\\Vova\\.nuget\\packages\\",
-      "outputPath": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\obj\\",
+      "projectPath": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Vova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -379,7 +384,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net48": {
@@ -401,7 +406,7 @@
             "version": "[2.*, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
