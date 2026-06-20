@@ -10,6 +10,9 @@
 		<techLevel>Neolithic</techLevel>
 		<researchViewX>24.00</researchViewX>
 		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
+		</prerequisites>
 	</ResearchProjectDef>
 
 </Defs>
