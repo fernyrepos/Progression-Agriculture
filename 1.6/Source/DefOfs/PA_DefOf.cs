@@ -16,6 +16,6 @@ namespace ProgressionAgriculture
         public static ScenPartDef Ferny_StartingSeeds;
 
         [MayRequire("OskarPotocki.VFE.Tribals")]
-        public static TribalResearchProjectDef VFET_Agriculture;
+        public static ResearchProjectDef VFET_Agriculture;
     }
 }

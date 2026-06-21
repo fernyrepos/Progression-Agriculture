@@ -1,42 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\",
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|e:\\steam\\steamapps\\common\\rimworld\\mods\\progression-agriculture\\1.6\\source\\stockgenerators\\stockgenerator_buycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|solutionrelative:stockgenerators\\stockgenerator_buycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|e:\\steam\\steamapps\\common\\rimworld\\mods\\progression-agriculture\\1.6\\source\\harmony\\iplanttogrowsettable_getplantdeftogrow_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|solutionrelative:harmony\\iplanttogrowsettable_getplantdeftogrow_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|e:\\steam\\steamapps\\common\\rimworld\\mods\\progression-agriculture\\1.6\\source\\gamecomponents\\gamecomponent_unlockedcrops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|solutionrelative:gamecomponents\\gamecomponent_unlockedcrops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|e:\\steam\\steamapps\\common\\rimworld\\mods\\progression-agriculture\\1.6\\source\\harmony\\designator_bloomingflowergrowingzone_visible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\progression-agriculture\\1.6\\source\\harmony\\designator_bloomingflowergrowingzone_visible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|solutionrelative:harmony\\designator_bloomingflowergrowingzone_visible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|e:\\steam\\steamapps\\common\\rimworld\\mods\\progression-agriculture\\1.6\\source\\harmony\\defgenerator_generateimplieddefs_preresolve_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|solutionrelative:harmony\\defgenerator_generateimplieddefs_preresolve_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|e:\\steam\\steamapps\\common\\rimworld\\mods\\progression-agriculture\\1.6\\source\\comps\\properties\\compproperties_unlockcrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|solutionrelative:comps\\properties\\compproperties_unlockcrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|e:\\steam\\steamapps\\common\\rimworld\\mods\\progression-agriculture\\1.6\\source\\commands\\command_setplanttogrownothingtogrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|solutionrelative:commands\\command_setplanttogrownothingtogrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|e:\\steam\\steamapps\\common\\rimworld\\mods\\progression-agriculture\\1.6\\source\\harmony\\command_setplanttogrow_isplantavailable_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|solutionrelative:harmony\\command_setplanttogrow_isplantavailable_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|e:\\steam\\steamapps\\common\\rimworld\\mods\\progression-agriculture\\1.6\\source\\defofs\\pa_defof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\progression-agriculture\\1.6\\source\\defofs\\pa_defof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|solutionrelative:defofs\\pa_defof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\progression-agriculture\\1.6\\source\\settings\\progressionagriculturemod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|ProgressionAgriculture.csproj|solutionrelative:settings\\progressionagriculturemod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StockGenerator_BuyCategory.cs",
-              "DocumentMoniker": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\StockGenerators\\StockGenerator_BuyCategory.cs",
-              "RelativeDocumentMoniker": "StockGenerators\\StockGenerator_BuyCategory.cs",
-              "ToolTip": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\StockGenerators\\StockGenerator_BuyCategory.cs*",
-              "RelativeToolTip": "StockGenerators\\StockGenerator_BuyCategory.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProgressionAgricultureMod.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Settings\\ProgressionAgricultureMod.cs",
+              "RelativeDocumentMoniker": "Settings\\ProgressionAgricultureMod.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Settings\\ProgressionAgricultureMod.cs",
+              "RelativeToolTip": "Settings\\ProgressionAgricultureMod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T21:04:33.761Z",
+              "WhenOpened": "2026-06-21T05:49:36.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PA_DefOf.cs",
-              "DocumentMoniker": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\DefOfs\\PA_DefOf.cs",
-              "RelativeDocumentMoniker": "DefOfs\\PA_DefOf.cs",
-              "ToolTip": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\DefOfs\\PA_DefOf.cs*",
-              "RelativeToolTip": "DefOfs\\PA_DefOf.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Designator_BloomingFlowerGrowingZone_Visible.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Harmony\\Designator_BloomingFlowerGrowingZone_Visible.cs",
+              "RelativeDocumentMoniker": "Harmony\\Designator_BloomingFlowerGrowingZone_Visible.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Harmony\\Designator_BloomingFlowerGrowingZone_Visible.cs*",
+              "RelativeToolTip": "Harmony\\Designator_BloomingFlowerGrowingZone_Visible.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T20:57:27.011Z",
+              "WhenOpened": "2026-06-21T05:48:36.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IPlantToGrowSettable_GetPlantDefToGrow_Patch.cs",
-              "DocumentMoniker": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Harmony\\IPlantToGrowSettable_GetPlantDefToGrow_Patch.cs",
-              "RelativeDocumentMoniker": "Harmony\\IPlantToGrowSettable_GetPlantDefToGrow_Patch.cs",
-              "ToolTip": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Harmony\\IPlantToGrowSettable_GetPlantDefToGrow_Patch.cs",
-              "RelativeToolTip": "Harmony\\IPlantToGrowSettable_GetPlantDefToGrow_Patch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Title": "PA_DefOf.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\DefOfs\\PA_DefOf.cs",
+              "RelativeDocumentMoniker": "DefOfs\\PA_DefOf.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\DefOfs\\PA_DefOf.cs",
+              "RelativeToolTip": "DefOfs\\PA_DefOf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T20:52:51.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameComponent_UnlockedCrops.cs",
-              "DocumentMoniker": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\GameComponents\\GameComponent_UnlockedCrops.cs",
-              "RelativeDocumentMoniker": "GameComponents\\GameComponent_UnlockedCrops.cs",
-              "ToolTip": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\GameComponents\\GameComponent_UnlockedCrops.cs",
-              "RelativeToolTip": "GameComponents\\GameComponent_UnlockedCrops.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T20:52:50.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DefGenerator_GenerateImpliedDefs_PreResolve_Patch.cs",
-              "DocumentMoniker": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Harmony\\DefGenerator_GenerateImpliedDefs_PreResolve_Patch.cs",
-              "RelativeDocumentMoniker": "Harmony\\DefGenerator_GenerateImpliedDefs_PreResolve_Patch.cs",
-              "ToolTip": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Harmony\\DefGenerator_GenerateImpliedDefs_PreResolve_Patch.cs",
-              "RelativeToolTip": "Harmony\\DefGenerator_GenerateImpliedDefs_PreResolve_Patch.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T20:52:45.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Command_SetPlantToGrowNothingToGrow.cs",
-              "DocumentMoniker": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Commands\\Command_SetPlantToGrowNothingToGrow.cs",
-              "RelativeDocumentMoniker": "Commands\\Command_SetPlantToGrowNothingToGrow.cs",
-              "ToolTip": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Commands\\Command_SetPlantToGrowNothingToGrow.cs",
-              "RelativeToolTip": "Commands\\Command_SetPlantToGrowNothingToGrow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T20:52:41.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CompProperties_UnlockCrop.cs",
-              "DocumentMoniker": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Comps\\Properties\\CompProperties_UnlockCrop.cs",
-              "RelativeDocumentMoniker": "Comps\\Properties\\CompProperties_UnlockCrop.cs",
-              "ToolTip": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Comps\\Properties\\CompProperties_UnlockCrop.cs",
-              "RelativeToolTip": "Comps\\Properties\\CompProperties_UnlockCrop.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T20:52:39.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Designator_BloomingFlowerGrowingZone_Visible.cs",
-              "DocumentMoniker": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Harmony\\Designator_BloomingFlowerGrowingZone_Visible.cs",
-              "RelativeDocumentMoniker": "Harmony\\Designator_BloomingFlowerGrowingZone_Visible.cs",
-              "ToolTip": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Harmony\\Designator_BloomingFlowerGrowingZone_Visible.cs*",
-              "RelativeToolTip": "Harmony\\Designator_BloomingFlowerGrowingZone_Visible.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T20:51:43.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Command_SetPlantToGrow_IsPlantAvailable_Patch.cs",
-              "DocumentMoniker": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Harmony\\Command_SetPlantToGrow_IsPlantAvailable_Patch.cs",
-              "RelativeDocumentMoniker": "Harmony\\Command_SetPlantToGrow_IsPlantAvailable_Patch.cs",
-              "ToolTip": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\Harmony\\Command_SetPlantToGrow_IsPlantAvailable_Patch.cs",
-              "RelativeToolTip": "Harmony\\Command_SetPlantToGrow_IsPlantAvailable_Patch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T20:47:48.862Z",
+              "WhenOpened": "2026-06-21T05:43:06.121Z",
               "EditorCaption": ""
             }
           ]
