@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
       <Operation Class="PatchOperationRemove">
-          <success>Always</success>
           <xpath>Defs/ResearchProjectDef[defName="VPEF_Horticulture"]</xpath>
       </Operation>
+      
+      <Operation Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[@Name="VPEF_BloomingPlantBase"]/plant/sowResearchPrerequisites</xpath>
+      </Operation>
+
 </Patch>
