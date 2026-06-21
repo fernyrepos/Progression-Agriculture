@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj": {}
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj": {}
   },
   "projects": {
-    "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj": {
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj",
+        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj",
         "projectName": "ProgressionAgriculture",
-        "projectPath": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\obj\\",
+        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\ProgressionAgriculture.csproj",
+        "packagesPath": "C:\\Users\\Vova\\.nuget\\packages\\",
+        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Progression-Agriculture\\1.6\\Source\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Vova\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,7 +40,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net48": {
@@ -66,7 +62,7 @@
               "version": "[2.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310\\RuntimeIdentifierGraph.json"
         }
       }
     }
