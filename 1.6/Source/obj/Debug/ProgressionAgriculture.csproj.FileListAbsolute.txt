@@ -3,3 +3,8 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Progression-Agricult
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Progression-Agriculture\1.6\Source\obj\Debug\ProgressionAgriculture.GeneratedMSBuildEditorConfig.editorconfig
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Progression-Agriculture\1.6\Source\obj\Debug\ProgressionAgriculture.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Progression-Agriculture\1.6\Source\obj\Debug\ProgressionAgriculture.dll
+E:\Steam\steamapps\common\RimWorld\Mods\Progression-Agriculture\1.6\Assemblies\ProgressionAgriculture.dll
+E:\Steam\steamapps\common\RimWorld\Mods\Progression-Agriculture\1.6\Source\obj\Debug\ProgressionAgriculture.csproj.AssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\Progression-Agriculture\1.6\Source\obj\Debug\ProgressionAgriculture.GeneratedMSBuildEditorConfig.editorconfig
+E:\Steam\steamapps\common\RimWorld\Mods\Progression-Agriculture\1.6\Source\obj\Debug\ProgressionAgriculture.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\RimWorld\Mods\Progression-Agriculture\1.6\Source\obj\Debug\ProgressionAgriculture.dll
