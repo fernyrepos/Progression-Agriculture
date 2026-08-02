@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="SD_DwarvenDrugPlants"]/label</xpath>
+    <value>
+      <label>Bladeroot cigar</label>
+    </value>
+  </Operation>
+
+</Patch>
