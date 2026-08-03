@@ -292,6 +292,16 @@
                 </operations>
 		</match>
 	</Operation>
+	
+	<!-- put cotton into plant matter category -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DankPyon_RawCotton"]/thingCategories</xpath>
+		<value>
+		  <thingCategories>
+			<li>PlantMatter</li>
+		  </thingCategories>
+		</value>
+	</Operation>
 
 
                         <!-- VFE FARMING OVERLAP -->
