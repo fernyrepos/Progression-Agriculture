@@ -1381,4 +1381,86 @@
       </defaultIngredientFilter>
     </value>
   </Operation>
+  
+	<!-- VCE crops and flour stuff -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!-- rename wheat to grain -->
+				<li Class="PatchOperationReplace">
+					<success>Always</success>
+					<xpath>Defs/ThingDef[defName="DankPyon_RawWheat"]/label</xpath>
+					<value>
+						<label>grain</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<success>Always</success>
+					<xpath>Defs/RecipeDef[defName="DankPyon_CraftFlour"]/label</xpath>
+					<value>
+						<label>grind grain into flour</label>
+					</value>
+				</li>
+				<!-- make VCE wheat drop grain instead of flour (not an overlap btw, VCE_Wheat is renamed to Spelt) -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="VCE_Wheat"]/plant/harvestedThingDef</xpath>
+					<value>
+						<harvestedThingDef>DankPyon_RawWheat</harvestedThingDef>
+					</value>
+				</li>
+				<!-- replace VCE flour with MO flour -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ReplaceLib.ReplacerDef>
+							<defName>MedievalOverhaul_VEMorePlants</defName>
+							<replacers>
+								<li>
+									<replace>VCE_Flour</replace>
+									<with>DankPyon_Flour</with>
+								</li>
+							</replacers>
+						</ReplaceLib.ReplacerDef>
+					</value>
+				</li>
+				<li Class="PatchOperationFindMod">
+				  <mods>
+					<li>Vanilla Plants Expanded - More Plants</li>
+				  </mods>
+				  <match Class="PatchOperationSequence">
+					<operations>
+						<!-- make VCE crops drop grain instead of flour -->
+						<li Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="VCE_Barley"]/plant/harvestedThingDef</xpath>
+							<value>
+								<harvestedThingDef>DankPyon_RawWheat</harvestedThingDef>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="VCE_Oats"]/plant/harvestedThingDef</xpath>
+							<value>
+								<harvestedThingDef>DankPyon_RawWheat</harvestedThingDef>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="VCE_Rye"]/plant/harvestedThingDef</xpath>
+							<value>
+								<harvestedThingDef>DankPyon_RawWheat</harvestedThingDef>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="VCE_Sorghum"]/plant/harvestedThingDef</xpath>
+							<value>
+								<harvestedThingDef>DankPyon_RawWheat</harvestedThingDef>
+							</value>
+						</li>
+					</operations>
+				  </match>
+				</li>
+                </operations>
+		</match>
+	</Operation>
 </Patch>
