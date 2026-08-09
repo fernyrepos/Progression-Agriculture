@@ -91,5 +91,6 @@
     <li IfModActive="vanillaexpanded.gravship">Mods and Shit/VE Gravships</li>
     <li IfModActive="vanillaexpanded.vpeflowers">Mods and Shit/VPE Flowers</li>
     <li IfModActive="det.sbdelights">Mods and Shit/Stoneborn Delights</li>
+    <li IfModActive="vanillaexpanded.outposts">Mods and Shit/VE Outposts</li>
   </v1.6>
 </loadFolders>

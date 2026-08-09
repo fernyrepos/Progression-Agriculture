@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--
+		SeedIconOverrideDef lets any mod (or your own patch) hand-supply a seed pack
+		icon for a specific crop instead of the auto-generated composite.
+
+		- defName must match the crop ThingDef's defName exactly.
+		- texPath is resolved via ContentFinder, so the texture can live in this mod,
+		  the crop's own mod, or any other active mod's Textures folder - just point
+		  it at the path relative to that mod's Textures folder, no file extension.
+
+		Uncomment and edit the example below to override the vanilla potato's seed
+		bundle icon with a hand-made texture at Textures/SeedIcons/PotatoSeedBundle.png
+		in this mod.
+
+	<PA_DynamicSeedIcons.SeedIconOverrideDef>
+		<defName>Plant_Potato</defName>
+		<texPath>Test/potato_override</texPath>
+	</PA_DynamicSeedIcons.SeedIconOverrideDef>
+	-->
+
+</Defs>
