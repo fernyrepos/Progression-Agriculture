@@ -14,5 +14,18 @@
 			<li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
 		</prerequisites>
 	</ResearchProjectDef>
-
+	
+	<ResearchProjectDef>
+		<defName>LemonSkin_GeneticallyModifiedCrops</defName>
+		<label>genetically modified crops</label>
+		<description>Grow genetically modified crops that do not need to be processed before use.</description>
+		<baseCost>600</baseCost>
+		<tab></tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Hydroponics</li>
+		</prerequisites>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>1.50</researchViewY>
+	</ResearchProjectDef>
 </Defs>

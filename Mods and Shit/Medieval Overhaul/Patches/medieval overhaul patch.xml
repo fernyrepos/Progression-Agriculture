@@ -185,6 +185,324 @@
                     </ReplaceLib.ReplacerDef>
                     </value>
                 </li>
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Cooking Expanded</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <operations>
+              <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VCE_Sorghum"]/plant/harvestedThingDef</xpath>
+                <value>
+                  <harvestedThingDef>DankPyon_RawWheat</harvestedThingDef>
+                </value>
+              </li>
+              <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VCE_Barley"]/plant/harvestedThingDef</xpath>
+                <value>
+                  <harvestedThingDef>DankPyon_RawWheat</harvestedThingDef>
+                </value>
+              </li>
+              <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VCE_Oats"]/plant/harvestedThingDef</xpath>
+                <value>
+                  <harvestedThingDef>DankPyon_RawWheat</harvestedThingDef>
+                </value>
+              </li>
+              <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VCE_Rye"]/plant/harvestedThingDef</xpath>
+                <value>
+                  <harvestedThingDef>DankPyon_RawWheat</harvestedThingDef>
+                </value>
+              </li>
+            </operations>
+          </match>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- VE COOKING OVERLAP -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Cooking Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!-- VCE Wheat -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VCE_Wheat"]/label</xpath>
+          <value>
+            <label>genetically modified wheat plant</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VCE_Wheat"]/description</xpath>
+          <value>
+            <description>An amber cereal plant that takes almost an entire growing season to come to fruition. While fragile and time-consuming, this wheat has been genetically engineered to gently break into flour with a mere touch.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VCE_Wheat"]/plant/harvestedThingDef</xpath>
+          <value>
+            <harvestedThingDef>DankPyon_Flour</harvestedThingDef>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="VCE_Wheat"]/plant/sowResearchPrerequisites</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VCE_Wheat"]/plant/sowResearchPrerequisites</xpath>
+            <value>
+              <sowResearchPrerequisites Inherit="False">
+                <li>LemonSkin_GeneticallyModifiedCrops</li>
+              </sowResearchPrerequisites>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="VCE_Wheat"]/plant</xpath>
+            <value>
+              <sowResearchPrerequisites Inherit="False">
+                <li>LemonSkin_GeneticallyModifiedCrops</li>
+              </sowResearchPrerequisites>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="VCE_Wheat"]</xpath>
+          <value>
+            <li Class="ProgressionAgriculture.ExcludeFromAgriculture"></li>
+          </value>
+        </li>
+        <!-- VCE Sugarcane -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VCE_Sugarcane"]/label</xpath>
+          <value>
+            <label>genetically modified sugarcane plant</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VCE_Sugarcane"]/description</xpath>
+          <value>
+            <description>A thick, tall, tropical grass with jointed stems. While not exactly the most nutritious thing to eat on its own, this sugarcane has been genetically engineered to gently break into sugar with a mere touch for a variety of culinary creations - Particularly desserts.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VCE_Sugarcane"]/plant/harvestedThingDef</xpath>
+          <value>
+            <harvestedThingDef>DankPyon_Sugar</harvestedThingDef>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="VCE_Sugarcane"]/plant/sowResearchPrerequisites</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VCE_Sugarcane"]/plant/sowResearchPrerequisites</xpath>
+            <value>
+              <sowResearchPrerequisites Inherit="False">
+                <li>LemonSkin_GeneticallyModifiedCrops</li>
+              </sowResearchPrerequisites>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="VCE_Sugarcane"]/plant</xpath>
+            <value>
+              <sowResearchPrerequisites Inherit="False">
+                <li>LemonSkin_GeneticallyModifiedCrops</li>
+              </sowResearchPrerequisites>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="VCE_Sugarcane"]</xpath>
+          <value>
+            <li Class="ProgressionAgriculture.ExcludeFromAgriculture"></li>
+          </value>
+        </li>
+        <!-- VCE Allspice -->
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VCE_Allspice"]/label</xpath>
+          <value>
+            <label>genetically modified herb plant</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VCE_Allspice"]/description</xpath>
+          <value>
+            <description>A fragrant, leafy green plant which has been genetically engineered to rapidly dry and cure into spices upon harvesting.</description>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VCE_Allspice"]/plant/harvestedThingDef</xpath>
+          <value>
+            <harvestedThingDef>DankPyon_Spices</harvestedThingDef>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="VCE_Allspice"]/plant/sowResearchPrerequisites</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="VCE_Allspice"]/plant/sowResearchPrerequisites</xpath>
+            <value>
+              <sowResearchPrerequisites Inherit="False">
+                <li>LemonSkin_GeneticallyModifiedCrops</li>
+              </sowResearchPrerequisites>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="VCE_Allspice"]/plant</xpath>
+            <value>
+              <sowResearchPrerequisites Inherit="False">
+                <li>LemonSkin_GeneticallyModifiedCrops</li>
+              </sowResearchPrerequisites>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="VCE_Allspice"]</xpath>
+          <value>
+            <li Class="ProgressionAgriculture.ExcludeFromAgriculture"></li>
+          </value>
+        </li>
+        <!-- Wild Crops compat -->
+        <li Class="PatchOperationFindMod">
+          <mods>
+            <li>Wild Crops, a fork of Wild Spawn</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+            <operations>
+              <!-- Override Wheat - TemperateForest -->
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants/VCE_Wheat</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+                  <value>
+                    <VCE_Wheat>0</VCE_Wheat>
+                  </value>
+                </nomatch>
+              </li>
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants/DankPyon_Plant_Wheat</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+                  <value>
+                    <DankPyon_Plant_Wheat>0.005</DankPyon_Plant_Wheat>
+                  </value>
+                </nomatch>
+              </li>
+              <!-- Override Wheat - Grasslands -->
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="Grasslands"]/wildPlants/VCE_Wheat</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="Grasslands"]/wildPlants</xpath>
+                  <value>
+                    <VCE_Wheat>0</VCE_Wheat>
+                  </value>
+                </nomatch>
+              </li>
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="Grasslands"]/wildPlants/DankPyon_Plant_Wheat</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="Grasslands"]/wildPlants</xpath>
+                  <value>
+                    <DankPyon_Plant_Wheat>0.005</DankPyon_Plant_Wheat>
+                  </value>
+                </nomatch>
+              </li>
+              <!-- Override SugarCane - TemperateSwamp -->
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants/VCE_Sugarcane</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
+                  <value>
+                    <VCE_Sugarcane>0</VCE_Sugarcane>
+                  </value>
+                </nomatch>
+              </li>
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants/DankPyon_Plant_Sugarcane</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
+                  <value>
+                    <DankPyon_Plant_Sugarcane>0.005</DankPyon_Plant_Sugarcane>
+                  </value>
+                </nomatch>
+              </li>
+              <!-- Override SugarCane - TropicalRainforest -->
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants/VCE_Sugarcane</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
+                  <value>
+                    <VCE_Sugarcane>0</VCE_Sugarcane>
+                  </value>
+                </nomatch>
+              </li>
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants/DankPyon_Plant_Sugarcane</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
+                  <value>
+                    <DankPyon_Plant_Sugarcane>0.005</DankPyon_Plant_Sugarcane>
+                  </value>
+                </nomatch>
+              </li>
+              <!-- Override SugarCane - TropicalSwamp -->
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildPlants/VCE_Sugarcane</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildPlants</xpath>
+                  <value>
+                    <VCE_Sugarcane>0</VCE_Sugarcane>
+                  </value>
+                </nomatch>
+              </li>
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildPlants/DankPyon_Plant_Sugarcane</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildPlants</xpath>
+                  <value>
+                    <DankPyon_Plant_Sugarcane>0.0025</DankPyon_Plant_Sugarcane>
+                  </value>
+                </nomatch>
+              </li>
+              <!-- Override Allspice - Desert -->
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="Desert"]/wildPlants/VCE_Allspice</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="Desert"]/wildPlants</xpath>
+                  <value>
+                    <VCE_Allspice>0</VCE_Allspice>
+                  </value>
+                </nomatch>
+              </li>
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="Desert"]/wildPlants/DankPyon_Plant_Herb</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="Desert"]/wildPlants</xpath>
+                  <value>
+                    <DankPyon_Plant_Herb>0.008</DankPyon_Plant_Herb>
+                  </value>
+                </nomatch>
+              </li>
+              <!-- Override Allspice - Grasslands -->
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="Grasslands"]/wildPlants/VCE_Allspice</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="Grasslands"]/wildPlants</xpath>
+                  <value>
+                    <VCE_Allspice>0</VCE_Allspice>
+                  </value>
+                </nomatch>
+              </li>
+              <li Class="PatchOperationConditional">
+                <xpath>Defs/BiomeDef[defName="Grasslands"]/wildPlants/DankPyon_Plant_Herb</xpath>
+                <nomatch Class="PatchOperationAdd">
+                  <xpath>Defs/BiomeDef[defName="Grasslands"]/wildPlants</xpath>
+                  <value>
+                    <DankPyon_Plant_Herb>0.005</DankPyon_Plant_Herb>
+                  </value>
+                </nomatch>
+              </li>
+            </operations>
+          </match>
+        </li>
                 </operations>
 		</match>
 	</Operation>
@@ -203,6 +521,15 @@
 
 
 
+  <!-- OTHER MISC PATCHES -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_RawCotton"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>PlantMatter</li>
+      </thingCategories>
+    </value>
+  </Operation>
 
                         <!-- VFE FARMING OVERLAP -->
 	<Operation Class="PatchOperationFindMod">
