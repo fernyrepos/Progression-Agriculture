@@ -8,6 +8,12 @@
     <PA.CropUnlocked>{0} seeds!</PA.CropUnlocked>
     <PA.CropUnlockedDesc>The bundle contained a host of seeds, enough to sustain a {0} farm! Your faction can now grow {0}.</PA.CropUnlockedDesc>
     <PA.UnlockCrop>Open {0} seed bundle</PA.UnlockCrop>
+    <PA.UnlockCropGizmo>Open {0} seed bundle</PA.UnlockCropGizmo>
+    <PA.UnlockCropGizmoDesc>Choose a colonist to open this seed bundle.</PA.UnlockCropGizmoDesc>
+    <PA.CannotOpenSeedBundleDowned>{0}: downed</PA.CannotOpenSeedBundleDowned>
+    <PA.CannotOpenSeedBundleUnreachable>{0}: cannot reach</PA.CannotOpenSeedBundleUnreachable>
+    <PA.NoColonistsCanOpenSeedBundle>No colonists can open this seed bundle.</PA.NoColonistsCanOpenSeedBundle>
+    <PA.SeedBundleNotOnMap>This seed bundle must be on the map to be opened.</PA.SeedBundleNotOnMap>
     <PA.CropAlreadyUnlocked>{0} already collected</PA.CropAlreadyUnlocked>
     <PA.SeedBundleIngredientCount>Seed bundle ingredient count: {0}</PA.SeedBundleIngredientCount>
     <PA.CropIsNotUnlocked>{0} is not collected yet.</PA.CropIsNotUnlocked>
