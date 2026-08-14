@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Orbital Station Start -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ScenarioDef[defName="OrbitalStation"]/scenario/parts</xpath>
+    <value>
+      <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+        <_itemCount>2</_itemCount>
+        <def>RandomSeedBundles</def>
+      </li>
+      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+        <def>Ferny_StartingSeeds</def>
+        <thingDef>Plant_Healroot_SeedBundle</thingDef>
+      </li>
+      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+        <def>Ferny_StartingSeeds</def>
+        <thingDef>Plant_Cotton_SeedBundle</thingDef>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ScenarioDef[defName="OrbitalExpedition"]/scenario/parts</xpath>
+    <value>
+      <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+        <_itemCount>2</_itemCount>
+        <def>RandomSeedBundles</def>
+      </li>
+      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+        <def>Ferny_StartingSeeds</def>
+        <thingDef>Plant_Healroot_SeedBundle</thingDef>
+      </li>
+      <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+        <def>Ferny_StartingSeeds</def>
+        <thingDef>Plant_Cotton_SeedBundle</thingDef>
+      </li>
+    </value>
+  </Operation>
+
+  <!-- Progression: Scenarios + Orbital Station Start -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Progression: Scenarios</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ScenarioDef[defName="Ferny_AnimalOrbitalStation"]/scenario/parts</xpath>
+          <value>
+            <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+              <_itemCount>2</_itemCount>
+              <def>RandomSeedBundles</def>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+              <def>Ferny_StartingSeeds</def>
+              <thingDef>Plant_Healroot_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+              <def>Ferny_StartingSeeds</def>
+              <thingDef>Plant_Cotton_SeedBundle</thingDef>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ScenarioDef[defName="Ferny_NeolithicOrbitalStation"]/scenario/parts</xpath>
+          <value>
+            <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+              <_itemCount>2</_itemCount>
+              <def>RandomSeedBundles</def>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+              <def>Ferny_StartingSeeds</def>
+              <thingDef>Plant_Healroot_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+              <def>Ferny_StartingSeeds</def>
+              <thingDef>Plant_Cotton_SeedBundle</thingDef>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ScenarioDef[defName="Ferny_MedievalOrbitalStation"]/scenario/parts</xpath>
+          <value>
+            <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+              <_itemCount>2</_itemCount>
+              <def>RandomSeedBundles</def>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+              <def>Ferny_StartingSeeds</def>
+              <thingDef>Plant_Healroot_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+              <def>Ferny_StartingSeeds</def>
+              <thingDef>Plant_Cotton_SeedBundle</thingDef>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ScenarioDef[defName="Ferny_SpacerOrbitalStation"]/scenario/parts</xpath>
+          <value>
+            <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+              <_itemCount>2</_itemCount>
+              <def>RandomSeedBundles</def>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+              <def>Ferny_StartingSeeds</def>
+              <thingDef>Plant_Healroot_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+              <def>Ferny_StartingSeeds</def>
+              <thingDef>Plant_Cotton_SeedBundle</thingDef>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ScenarioDef[defName="Ferny_UltratechOrbitalStation"]/scenario/parts</xpath>
+          <value>
+            <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+              <_itemCount>2</_itemCount>
+              <def>RandomSeedBundles</def>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+              <def>Ferny_StartingSeeds</def>
+              <thingDef>Plant_Healroot_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+              <def>Ferny_StartingSeeds</def>
+              <thingDef>Plant_Cotton_SeedBundle</thingDef>
+            </li>
+          </value>
+        </li>
+
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ScenarioDef[defName="Ferny_UltratechOrbitalExpedition"]/scenario/parts</xpath>
+          <value>
+            <li Class="RandomVegetables.ScenPart_RandomSeedBundles">
+              <_itemCount>2</_itemCount>
+              <def>RandomSeedBundles</def>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+              <def>Ferny_StartingSeeds</def>
+              <thingDef>Plant_Healroot_SeedBundle</thingDef>
+            </li>
+            <li Class="ProgressionAgriculture.ScenPart_StartingSeeds">
+              <def>Ferny_StartingSeeds</def>
+              <thingDef>Plant_Cotton_SeedBundle</thingDef>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>

@@ -60,5 +60,7 @@
 		<li>vanillaexpanded.vpeflowers</li>
 		<li>det.sbdelights</li>
 		<li>vanillaexpanded.outposts</li>
+		<li>alt4s.OrbitalStationStart</li>
+		<!-- <li>ferny.progressionscenarios</li> -->
 	</loadAfter>
 </ModMetaData>

@@ -17,4 +17,22 @@
           <xpath>Defs/ResearchProjectDef[defName="VPEF_Horticulture"]/baseCost</xpath>
           <value><baseCost>200</baseCost></value>
       </Operation>
+
+      <Operation Class="PatchOperationConditional">
+          <xpath>Defs/ResearchProjectDef[defName="VPEF_Horticulture"]/prerequisites</xpath>
+          <match Class="PatchOperationAdd">
+              <xpath>Defs/ResearchProjectDef[defName="VPEF_Horticulture"]/prerequisites</xpath>
+              <value>
+                  <li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
+              </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+              <xpath>Defs/ResearchProjectDef[defName="VPEF_Horticulture"]</xpath>
+              <value>
+                  <prerequisites>
+                      <li MayRequire="oskarpotocki.vfe.tribals">VFET_Agriculture</li>
+                  </prerequisites>
+              </value>
+          </nomatch>
+      </Operation>
 </Patch>

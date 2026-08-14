@@ -36,6 +36,7 @@
     <!-- <li IfModActive="oskarpotocki.vfe.medieval2">Mods and Shit/VFE Medieval 2</li> -->
     <li IfModActive="vanillaexpanded.vfecore">Mods and Shit/VE Furniture</li>
     <li IfModActive="sarg.alphabiomes">Mods and Shit/Alpha Biomes</li>
+    <li IfModActive="alt4s.OrbitalStationStart">Mods and Shit/Orbital Station Start</li>
   </v1.5>
   <v1.6>
     <li>/</li>
@@ -92,5 +93,6 @@
     <li IfModActive="vanillaexpanded.vpeflowers">Mods and Shit/VPE Flowers</li>
     <li IfModActive="det.sbdelights">Mods and Shit/Stoneborn Delights</li>
     <li IfModActive="vanillaexpanded.outposts">Mods and Shit/VE Outposts</li>
+    <li IfModActive="alt4s.OrbitalStationStart">Mods and Shit/Orbital Station Start</li>
   </v1.6>
 </loadFolders>

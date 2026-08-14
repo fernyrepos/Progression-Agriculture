@@ -1,5 +1,6 @@
 using Verse;
 using Verse.AI;
+using Verse.Sound;
 
 namespace ProgressionAgriculture
 {
@@ -31,6 +32,7 @@ namespace ProgressionAgriculture
 				CompUnlockCrop comp = Comp();
 				if (comp != null)
 				{
+					PA_DefOf.PA_OpenSeedBundle.PlayOneShot(SoundInfo.InMap(new TargetInfo(TargetA.Thing.Position, TargetA.Thing.Map)));
 					comp.Unlock();
 				}
 			});
