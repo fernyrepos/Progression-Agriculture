@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "fAgPMcP9ngc=",
+  "success": true,
+  "projectFilePath": "/Users/ferny/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/Progression-Agriculture/1.5/Source/ProgressionAgriculture.csproj",
+  "expectedPackageFiles": [
+    "/Users/ferny/.nuget/packages/krafs.publicizer/2.3.2/krafs.publicizer.2.3.2.nupkg.sha512",
+    "/Users/ferny/.nuget/packages/krafs.rimworld.ref/1.5.4409/krafs.rimworld.ref.1.5.4409.nupkg.sha512",
+    "/Users/ferny/.nuget/packages/lib.harmony/2.3.3/lib.harmony.2.3.3.nupkg.sha512",
+    "/Users/ferny/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/Users/ferny/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

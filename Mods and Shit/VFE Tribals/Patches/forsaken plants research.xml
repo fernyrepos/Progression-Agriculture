@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Forsaken Faction For Alpha Genes</li>
+        </mods>
+        <match Class="PatchOperationConditional">
+            <xpath>Defs/ResearchProjectDef[defName="FOF_Plants"]/prerequisites</xpath>
+            <match Class="PatchOperationAdd">
+                <xpath>Defs/ResearchProjectDef[defName="FOF_Plants"]/prerequisites</xpath>
+                <value>
+                    <li>VFET_Agriculture</li>
+                </value>
+            </match>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/ResearchProjectDef[defName="FOF_Plants"]</xpath>
+                <value>
+                    <prerequisites>
+                        <li>VFET_Agriculture</li>
+                    </prerequisites>
+                </value>
+            </nomatch>
+        </match>
+    </Operation>
+</Patch>

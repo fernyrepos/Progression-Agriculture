@@ -9,6 +9,7 @@ namespace ProgressionAgriculture
 	public class GameComponent_UnlockedCrops : GameComponent
 	{
 		private HashSet<ThingDef> unlockedCrops = new HashSet<ThingDef>();
+		private bool seedBundleTipShown;
 		public static GameComponent_UnlockedCrops Instance;
 		public GameComponent_UnlockedCrops()
 		{
@@ -24,7 +25,15 @@ namespace ProgressionAgriculture
 		{
 			base.ExposeData();
 			Scribe_Collections.Look(ref unlockedCrops, "unlockedCrops", LookMode.Def);
+			Scribe_Values.Look(ref seedBundleTipShown, "seedBundleTipShown", false);
 			Instance = this;
+		}
+
+		public bool SeedBundleTipShown => seedBundleTipShown;
+
+		public void MarkSeedBundleTipShown()
+		{
+			seedBundleTipShown = true;
 		}
 
 		public bool IsCropUnlocked(ThingDef cropDef)

@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ferny/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/Progression-Agriculture/1.5/Source/ProgressionAgriculture.csproj": {}
+  },
+  "projects": {
+    "/Users/ferny/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/Progression-Agriculture/1.5/Source/ProgressionAgriculture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ferny/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/Progression-Agriculture/1.5/Source/ProgressionAgriculture.csproj",
+        "projectName": "ProgressionAgriculture",
+        "projectPath": "/Users/ferny/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/Progression-Agriculture/1.5/Source/ProgressionAgriculture.csproj",
+        "packagesPath": "/Users/ferny/.nuget/packages/",
+        "outputPath": "/Users/ferny/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/Progression-Agriculture/1.5/Source/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ferny/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "framework": "net48",
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net48": {
+          "framework": "net48",
+          "targetAlias": "net48",
+          "dependencies": {
+            "Krafs.Publicizer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "Krafs.Rimworld.Ref": {
+              "target": "Package",
+              "version": "[1.5.*, )"
+            },
+            "Lib.Harmony": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[2.3.3, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

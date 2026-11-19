@@ -21,5 +21,6 @@
     <PA.NothingToSowYet>Nothing sowing. Click for menu.</PA.NothingToSowYet>
     <PA.UnlockNewSeeds>Open seed bundles in order to be able to sow plants. These can be found trading, raiding, or through quest rewards.</PA.UnlockNewSeeds>
     <PA.UnlockedSeedLabel>{0} (owned)</PA.UnlockedSeedLabel>
+    <PA.SeedBundleFirstSelectTip>This bundle lets you permanently unlock a designated crop for use in your growing areas. For it to unlock, you must open the bundle.</PA.SeedBundleFirstSelectTip>
     <PA.ScenPart_StartingSeeds>Start with seed bundles</PA.ScenPart_StartingSeeds>
 </LanguageData>

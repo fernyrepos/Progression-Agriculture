@@ -13,6 +13,7 @@
           <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Culture"]/prerequisites</xpath>
           <value>
             <prerequisites>
+                <li>VFET_Agriculture</li>
                 <li>VFET_Tribalwear</li>
                 <li>VFET_Furniture</li>
                 <li>VFET_AnimalHandling</li>

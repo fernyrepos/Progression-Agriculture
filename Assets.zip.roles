@@ -1,0 +1,14 @@
+Sounds/SeedBundle.ogg raw
+Textures/SeedBundle.png.dds.split image:Default
+Textures/SeedPackingBench_east.png.dds.split image:Default
+Textures/SeedPackingBench_eastm.png.dds.split image:Default
+Textures/SeedPackingBench_north.png.dds.split image:Default
+Textures/SeedPackingBench_northm.png.dds.split image:Default
+Textures/SeedPackingBench_south.png.dds.split image:Default
+Textures/SeedPackingBench_southm.png.dds.split image:Default
+Textures/SeedPackingBench_west.png.dds.split image:Default
+Textures/SeedPackingBench_westm.png.dds.split image:Default
+Textures/UI/ArchitectIcons/Default/Ferny_Farming.png.dds.split image:Default
+Textures/UI/ArchitectIcons/Default/alt.png.dds.split image:Default
+Textures/UI/ArchitectIcons/Default/alt2.png.dds.split image:Default
+Textures/UI/ArchitectIcons/Default/iconmonstr-flower-3-64.png.dds.split image:Default
