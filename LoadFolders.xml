@@ -94,5 +94,6 @@
     <li IfModActive="det.sbdelights">Mods and Shit/Stoneborn Delights</li>
     <li IfModActive="vanillaexpanded.outposts">Mods and Shit/VE Outposts</li>
     <li IfModActive="alt4s.OrbitalStationStart">Mods and Shit/Orbital Station Start</li>
+    <li IfModActiveAll="regrowth.botr.core,dankpyon.medieval.overhaul">Mods and Shit/Regrowth Core/Medieval Overhaul</li>
   </v1.6>
 </loadFolders>

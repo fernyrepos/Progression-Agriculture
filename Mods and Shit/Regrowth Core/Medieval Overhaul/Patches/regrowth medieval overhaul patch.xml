@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Tundra cotton yields raw cotton when MO's cloth production chain is enabled -->
+  <Operation Class="MedievalOverhaul.PatchOperation_ToggleSettings">
+    <settings>
+      <li>clothChain</li>
+    </settings>
+    <active Class="PatchOperationConditional">
+      <xpath>Defs/ThingDef[defName="RG_Plant_TundraCotton"]/plant/harvestedThingDef[.="Cloth"]</xpath>
+      <match Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RG_Plant_TundraCotton"]/plant/harvestedThingDef</xpath>
+        <value>
+          <harvestedThingDef>DankPyon_RawCotton</harvestedThingDef>
+        </value>
+      </match>
+    </active>
+  </Operation>
+</Patch>
